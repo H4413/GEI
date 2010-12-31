@@ -1,1 +1,10 @@
-Dépôt pour le projet GEI, fuck yeah.
+Dépôt pour le projet GEI.
+
+Pour la première partie du projet nous aurons trois dossiers à présenter au comité de pilotage, plus d'autres choses à réaliser par le CdP et par le RQ.
+
+Chaque dossier à rendre sera placé dans un sous-répertoire dans le dépôt. Les sous-répertoires correspondants seront créés prochainement.
+
+Chaque dossier s'appuiera sur Latex pour la mise en forme et utilisera l'architecture disponible dans GEI_CommonStuff/DummyReport. Des instructions d'utilisations de l'architecture sont également placées dans ce répertoire.
+
+
+
