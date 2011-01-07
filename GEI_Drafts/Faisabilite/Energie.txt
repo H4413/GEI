@@ -5,7 +5,7 @@ Exigences:
 
 Autonomie: Les stations sont souvent situes dans des endroits très isolées et d'accès compliqué. Alors une solution c est que les ressources naturelles peuvent contribuer  à l'autonomie énergétique des stations et il est évident que la consommation électrique doit être minimale.
 
-Robustesse et Fiabilité: Même en cas de problème environnemental la approvisionnement de l'énergie à la station doit être assuré sans intervention humaine.
+Robustesse et Fiabilité: Même en cas de problème environnemental l'approvisionnement de l'énergie à la station doit être assuré sans intervention humaine.
 
 Protection de l environnement: les stations peuvent se trouver dans des espaces protégés donc il faut mettre en place de l'énergie non polluant et renouvelable car elle utilise des flux d'énergie naturelle(soleil, vent, eau,croissance végétale,....).
 
@@ -14,7 +14,7 @@ Alternatives:
 
 Energie Solaire Photovoltaïque
 Avantages
-Les systèmes solaires photovoltaïques sont simples et rapides à installer, l investissement  et rendement sont prévisibles à long terme.
+Les systèmes solaires photovoltaïques sont simples et rapides à installer, l'investissement  et rendement sont prévisibles à long terme.
 Elle répond aux exigences de robustesse et fiabilité car est tolérante aux pannes et nécessite très peu de maintenance. 
 Elle est exploitable pratiquement partout, la lumière du soleil étant disponible dans le monde entier. 
 Aussi, cette production d'énergie ne provoque aucun perturbation pour l environnement.
