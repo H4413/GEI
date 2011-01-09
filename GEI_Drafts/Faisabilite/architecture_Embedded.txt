@@ -35,7 +35,7 @@ Caractéristiques du microcontrôleur:
 .timer/compteur 3
 .entrées/sorties Jusqu'à 21
 .Capteur de température Intégré
-.Température  industrielle -40°C à +85 °C
+.Température fonctionnement -40°C à +85 °C
 .Boîtier QFN 56 (8 x 8 mm)
 .Autres Details
    Lead-free et RoHS compliant
