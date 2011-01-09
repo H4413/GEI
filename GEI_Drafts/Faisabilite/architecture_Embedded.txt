@@ -2,7 +2,9 @@ Solution Wireless Microcontroller
 
 La société Jennic est un fabricant de semi-conducteurs leader dans les solutions de connectivité sans fil. A ce titre, elle propose une gamme complète de microcontrôleurs radiofré-quences faible consommation capables de gérer différents types de protocoles: IEEE802.15.4, JenNet, 6LowPAN, ZigBee PRO"!
 
-Le "JN5148" est probablement un des microcontrôleurs radiofréquence parmi les plus performants disponibles actuellement sur le marché. Avec sa consommation ultra basse (inférieure de 35% vis-à-vis de la plupart des produits concurrents), sa très grande puissance (coeur RISC 32 Bits) et sa grande capacité mémoire (128 KB de ROM et 128 KB de RAM), ce dernier intègre un transceiver radio 2,4 GHz tout indiqué pour la réalisation d'applications avec protocole ZigBeePRO"! sans fil "low-cost" faible consommation.
+Le "JN5148" est probablement un des microcontrôleurs radiofréquence parmi les plus performants disponibles actuellement sur le marché. Avec sa consommation ultra basse (inférieure de 35% vis-à-vis de la plupart des produits concurrents),
+sa très grande puissance (coeur RISC 32 Bits) et sa grande capacité mémoire (128 KB de ROM et 128 KB de RAM), 
+ce dernier intègre un transceiver radio 2,4 GHz tout indiqué pour la réalisation d'applications avec protocole ZigBeePRO"! sans fil "low-cost" faible consommation.
 
 % IMAGE
 
