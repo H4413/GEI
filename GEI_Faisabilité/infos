@@ -3,7 +3,7 @@ TITLE="Dossier de faisabilité"
 OBJECT="Étude sur la faisabilité du projet."
 AUTHOR="H4413"
 
-FILE="faisabilite"
+FILE="gei_faisabilite"
 
 LANG="french"
 # For hyphenation and other language dependant stuff
