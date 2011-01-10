@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Projet Ingé" company="INSA" webLink="http://github.com/H4413/GEI" view-date="2011-01-10" view-index="0" gantt-divider-location="315" resource-divider-location="301" version="2.0">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart"/>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="55" order="0"/>
+        <field id="1" name="Rôle par défaut" width="44" order="0"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+        <date year="" month="12" date="25"/>
+        <date year="" month="1" date="1"/>
+        <date year="" month="5" date="1"/>
+        <date year="" month="5" date="8"/>
+        <date year="" month="7" date="14"/>
+        <date year="" month="8" date="15"/>
+        <date year="" month="11" date="1"/>
+        <date year="" month="11" date="11"/>
+        <date year="2005" month="3" date="28"/>
+    </calendars>
+    <tasks>
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="2" name="Dossier Init" color="#8cb6ce" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2011-01-10" duration="1" complete="0" priority="1" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+            <depend id="3" type="2" difference="0" hardness="Rubber"/>
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" name="Etude de faisabilité" color="#8cb6ce" meeting="false" start="2011-01-11" duration="1" complete="0" priority="2" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" name="STB" color="#8cb6ce" meeting="false" start="2011-01-12" duration="1" complete="0" priority="1" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="Dossier de conception" color="#8cb6ce" meeting="false" start="2011-01-13" duration="1" complete="0" priority="1" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" name="Dossier de synthèse de réponse" color="#8cb6ce" meeting="false" start="2011-01-14" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="4" name="Dossier de Gestion de la Doc" color="#8cb6ce" meeting="false" start="2011-01-10" duration="1" complete="0" priority="1" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" name="BP Rédaction Procédure" color="#8cb6ce" meeting="false" start="2011-01-11" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="9" name="Fiche d'argumentation" color="#8cb6ce" meeting="false" start="2011-01-10" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="10" name="Procédure de rédaction de dossier d'init" color="#8cb6ce" meeting="false" start="2011-01-10" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="11" name="Draft sur approche produit" color="#8cb6ce" meeting="false" start="2011-01-10" duration="1" complete="0" priority="1" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Clément" function="Default:1" contacts="clement.geiger@gmail.com" phone="0629826055"/>
+        <resource id="1" name="Hugo" function="Default:0" contacts="hpastorede@gmail.com" phone=""/>
+        <resource id="2" name="Quentin" function="Default:0" contacts="quentin.villers@gmail.com" phone=""/>
+        <resource id="3" name="Raphaël" function="Default:0" contacts="raphael.lize@gmail.com" phone=""/>
+        <resource id="4" name="Karen" function="Default:0" contacts="karabanto@gmail.com" phone=""/>
+        <resource id="5" name="Victor" function="Default:0" contacts="victorborgesf@gmail.com" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd3" order="0" width="176"/>
+        <displaycolumn property-id="tpd4" order="1" width="34"/>
+        <displaycolumn property-id="tpd5" order="2" width="33"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
