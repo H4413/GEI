@@ -1,0 +1,452 @@
+% Projet Ingénierie - Dossier d'initialisation - Clément Geiger
+
+\documentclass[twoside]{article}
+\usepackage{hyperref}
+
+
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{placeins}
+
+
+% Unicode encoding  
+\usepackage[utf8]{inputenc}
+
+
+% Colorfull Text
+\usepackage{xcolor}
+
+
+% Language settings:
+\usepackage[francais]{babel}
+
+\usepackage[T1]{fontenc}
+
+
+% Tables
+\usepackage{array}
+\usepackage{longtable}
+
+
+% Hyperrefferences  
+\usepackage{hyperref}
+
+
+% Font settings:
+\usepackage{charter}
+
+
+\title{Projet Ingénierie - Dossier d'initialisation}
+\author{Clément Geiger}
+% Page layout settings
+\usepackage{geometry}
+\geometry{
+	a4paper,  % 21 x 29,7 cm
+	body={160mm,240mm},
+	left=30mm, 
+	top=25mm,
+	headheight=7mm, 
+	headsep=4mm,
+	marginparsep=4mm,
+	marginparwidth=27mm
+}
+
+
+% Spacing:
+\usepackage{setspace}
+
+
+% Headers and footers:
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+          \fancyhf{}
+          \fancyfoot[LE,RO]{\textcolor[gray]{0.3}{\thepage}}
+          % Rulers width
+          \renewcommand{\footrulewidth}{.3pt}
+          \renewcommand{\headrulewidth}{.3pt}
+\fancyfoot[LO,RE]{\textcolor[gray]{0.3}{Clément Geiger}}
+\fancyfoot[CO,CE]{\textcolor[gray]{0.3}{Projet Ingénierie - Dossier d'initialisation}}
+
+
+% Vars & functs
+\newcommand\PIXPATH{./docs/pics}
+\newcommand\SRCPATH{./docs/src}
+\newcommand\Object{Initialisation du projet ingénierie}
+\newcommand\Version{1}
+\renewcommand{\labelitemi}{$\diamond$}
+\renewcommand{\labelenumi}{(\alph{enumi})}
+
+
+% Begining of the document
+\begin{document}
+
+	%Including all the files:
+
+    % Fichier ./docs/tex/00.a.premiere_page.tex
+
+% Front Page 
+
+% Title:
+\maketitle
+
+\thispagestyle{empty}
+
+\hfill\\
+\vfill
+
+% Objet
+\section*{Objet}
+\Object
+
+% Version actuelle
+\section*{Version}
+\Version
+
+% Picture
+\begin{center}
+    \includegraphics[width=3cm]{\PIXPATH/insa}\hfill\\
+%    \includegraphics[width=5cm]{\PIXPATH/frontPage}
+\end{center}
+
+\pagebreak
+
+    % Fichier ./docs/tex/00.b.suivi.tex
+
+% Suivi du document
+
+% Modifications
+\section*{Modifications du document}
+
+\begin{center}
+\begin{longtable}{|m{14mm}||m{36mm}|m{36mm}|m{60mm}|}
+\hline
+Version & Auteur & Date & Modification\endhead \hline
+% Version
+1
+& % Auteur
+Clément Geiger
+& % Date
+30 décembre 2010
+& % Modification
+Création
+\\\hline
+% Version
+
+& % Auteur
+
+& % Date
+
+& % Modification
+
+\\\hline
+% Version
+
+& % Auteur
+
+& % Date
+
+& % Modification
+
+\\\hline
+% Version
+
+& % Auteur
+
+& % Date
+
+& % Modification
+
+\\\hline
+\end{longtable}
+\end{center}
+
+% Validations
+
+\section*{Vérifications et validations du document}
+
+\begin{center}
+\begin{longtable}{|m{15mm}|m{36mm}|m{36mm}|m{60mm}|}
+\hline
+ & Responsable & Date & Remarques\endhead \hline
+% Validé/vérifié par
+
+& % Responsable
+
+& % Date
+
+& % Remarques
+
+\\\hline
+% Validé/vérifié par
+
+& % Responsable
+
+& % Date
+
+& % Remarques
+
+\\\hline
+% Validé/vérifié par
+
+& % Responsable
+
+& % Date
+
+& % Remarques
+
+\\\hline
+% Validé/vérifié par
+
+& % Responsable
+
+& % Date
+
+& % Remarques
+
+\\\hline
+\end{longtable}
+\end{center}
+
+\pagebreak
+
+    % Fichier ./docs/tex/01.intro.tex
+
+\section{Introduction}
+
+Le dossier d'initialisation du projet GEI. Document rédigé par le CdP avant le 
+début du projet et tenu à jour par ce dernier tout au long du projet. Il
+contient diverses informations nécessaire à la bonne marche du projet telles que
+la liste des livrables et des procédures, ou façon dont sera menée le projet.
+
+    % Fichier ./docs/tex/02.contexte.tex
+
+\section{Contexte du document}
+
+Ce document est rédigé dans le contexte du projet GEI mené durant la 4If. Ce
+projet se déroule sur quatre semaines et est divisé en deux phases :
+
+\begin{itemize}
+\item Etude spécifique
+\item Une autre phase
+\end{itemize}
+\hfill\\
+
+Le projet est mené par l'hexanôme H4413, et a pour tuteur M. Vasile-Marian
+Scuturici.
+
+    % Fichier ./docs/tex/03.doc_reference.tex
+
+\section{Documents de référence}
+
+On trouvera ici les divers documents de référence pour le dossier
+d'initialisation :
+
+\begin{itemize}
+\item Appel d'offre pour le projet GEI
+\item Documents du chef de projet pour le projet GEI
+\item Procédure de rédaction d'un dossier d'initialisation rédigée par Paul-Rémi
+Bauvais
+\end{itemize}
+
+    % Fichier ./docs/tex/04.rappel_probleme.tex
+
+\section{Rappel du problème}
+Terrain $\rightarrow$ \textit{cf.} l'appel d'offre.
+
+Le Comité pour la Protection de l'EnVironnement de l'UE (COPEVUE) est en charge de surveiller un vaste nombre de site en Europe. Ces sites surveillés peuvent être très différents, des zones méditerranéennes subissant de nombreux incendies pendant les étés aux régions nordiques difficiles d'accès pendant l'hiver. 
+
+Ces sites nécessitent une action régulière de l'homme pour des actions diverses comme du pompage, de l'entretien où encore des études sur la faune et la flore. Pour permettre une surveillance des sites plus efficace des sites, le COPEVUE souhaite mettre en place un suivi à distance (monitoring) pour leurs sites pour : 
+
+\begin{itemize}
+\item Surveiller en temps réel l'ensemble des sites et réduire les risques environnementaux
+\item Centraliser les informations pour un meilleur suivi
+\item Optimiser les actions effectuées pour les sites pour réduire les coûts
+\end{itemize}
+
+Les domaines d'exigences se situent à plusieurs niveaux : 
+
+\begin{itemize}
+\item l'autonomie du système embarqué
+\item les communications du système embarqué avec le système central
+\item la surveillance des environnements avec les capteurs et les interactions locales
+\item la qualité des interfaces utilisateurs
+\end{itemize}
+
+    % Fichier ./docs/tex/05.contraintes_generales.tex
+
+\section{Contraintes générales}
+
+Concernant les contraintes internes au projet, \textit{cf.} l'appel d'offre.\\
+Concernant les contraintes externes aux projet, pas de contraintes détectées
+pour l'instant.
+    % Fichier ./docs/tex/06.organisation_travail.tex
+
+\section{Organisation du travail}
+
+Dans cette partie on détaillera les rôles des différents membres de l'équipe
+menant à bien le projet.
+
+
+\subsection{Chef de Projet (Clément Geiger)}
+
+Coordinateur du projet et référent auprès des clients.
+
+
+\subsection{Responsable Qualité (Hugo Pastore de Cristofaro)}
+
+Responsable de la qualité des livrables rendus aux clients et garant du respect
+des procédures de rédaction et Bonnes Pratiques qu'il aura pris soin de mettre
+en place, bien entendu. Il est conseillé au RQ de se mettre d'accord avec le RQ
+du Projet Longue Durée afin de mettre en commun les éléments pouvant être
+réutilisés d'un projet à l'autre.
+
+
+\subsection{GEI}
+
+\begin{itemize}
+\item Karen Abanto
+\item Victor Borges
+\item Raphaël Lizé
+\item Quentin Villers
+\end{itemize}
+
+\hfill\\
+
+Chevilles ouvrières du projet, ils font ce que leur demande le CdP tout en
+respectant les contraintes imposées par le RQ.
+
+    % Fichier ./docs/tex/07.liste_livrables.tex
+
+\section{Liste des livrables attendus}
+
+On trouvera ici une liste exhaustive des livrables attendus durant le projet.
+Les livrables peuvent être remis au fur et à mesure du projet dès qu'ils
+sont finalisés. Toutefois, les livrables de la première phase doivent être
+remis au plus tard au début de la quatrième séance.\\
+Pour plus d'information sur chacun des livrables, se reporter au manuel
+correspondant au rôle produisant produire le livrable.
+
+
+\subsection{Première phase}
+
+\subsubsection{Chef de projet}
+
+\begin{itemize}
+\item Dossier d'initialisation non-finalisé (SELF-REFERENCE SPOTTED)
+\item Fiche d'argumentation commerciale
+\item Une procédure (rédaction d'un dossier d'initialisation ou gestion de
+configuration)
+\item Approche d'un produit système (draft)
+\end{itemize}
+
+\subsubsection{Responsable Qualité}
+
+\begin{itemize}
+\item Dossier de gestion de la documentation du projet 
+\item Réflexion sur les "bonnes pratiques" concernant la rédaction d'une
+procédure pour le CdP
+\item Réflexion sur les "bonnes pratiques" concernant la rédaction de CdC
+de sous ensemble logiciel pour le GEI.
+\item Ebauche du \textbf{Plan d'Assurance Qualité Projet} 
+\item \textbf{Dossier de synthèse} (présentation des principaux choix et élaboration de
+la solution, découpage en sous-ensembles et proposition de sous projets)
+\item \textbf{Critique} des différents livrables d'un point de vue formel : Etude Faisabilité, STB, Dossier
+Conception, Dossier d'Init, procédure (le RQ est le responsable des revues
+formelles). Cette critique exclue les drafts.
+\end{itemize}
+
+\subsubsection{Groupe d'Etudes Informatiques}
+
+\begin{description}
+\item[Dossier de faisabilité du projet]\hfill\\
+    Le dossier de faisabilité tend à démontrer la viabilité technique et
+    économique d'un projet. Il comporte les volets suivants : études
+    technique, commerciale, économique, juridique et d'organisation. On se
+    concentrera sur les deux premiers volets dans ce cas (\textbf{à
+    confirmer}). Le dossier peut également comporter une étude rapide des
+    projets similaires déjà menés.
+\item[Spécifications techniques des besoins]\hfill\\
+    La STB comporte l'expression des besoins du projet évalués selon des
+    critères techniques. Elle traduit les besoins fonctionnels du projet
+    évalués dans le cahier des charges de l'appel d'offre. La STB ne
+    fait que décrire de manière générale la solution employée, sans nommer
+    de référence techniques de capteur ou micro-contrôleur (par exemple).
+\item[Ebauche (draft) de la conception détaillée du futur système]\hfill\\
+\end{description}
+
+\subsection{Deuxième phase}
+
+    % Fichier ./docs/tex/08.organigramme_taches.tex
+
+\section{Organigramme des tâches}
+
+
+\subsection{Macro-phasage}
+
+Les approches organisation et produit du macro-phasage étant détaillées
+dans les deux parties précédentes, on s'attardera ici plus précisément sur
+l'approche activité.
+
+
+\subsection{Diagramme de Gantt}
+
+\url{http://fr.wikipedia.org/wiki/Diagramme\_de\_Gantt}
+
+    % Fichier ./docs/tex/09.modalites_suivi.tex
+
+\section{Modalité de suivi}
+
+\subsection{Les règles de suivi}
+\subsection{Les outils utilisés}
+\subsection{Les procédures de révision du planning}
+
+    % Fichier ./docs/tex/10.gestion_risques.tex
+
+\section{Gestion des risques}
+
+Divers risques peuvent entraîner des retards dans l'exécution du projet et
+doivent être pris en compte dans sa conduite. Certains risques sont liés au
+projet tandis que d'autres proviennent de l'équipe menant à bien le projet.
+
+\subsection{Risques liés à l'équipe}
+
+Les risques liés à l'équipe sont causés par ses membres. Les motifs de
+retards peuvent être les suivants :
+
+\begin{itemize}
+
+\item Epidémie majeure de grippe
+\item Membre insubordonné et dispersé en réunion
+\item Temps d'adaptation aux technologies employées au sein de l'hexanôme
+(rapport en \LaTeX, versionnement par Git)
+\item Découverte du travail en mode "projet" pour certains membres du GEI
+
+\end{itemize}
+
+
+\subsection{Risques liés au projet}
+
+Les risques liés aux projets sont les suivants :
+
+\begin{itemize}
+
+\item Cahier des charges mouvant ; l'appel d'offre étant ferme et émis, ce
+risque peut être écarté.
+\item Solution trop compliqué donc plus longue à mettre en oeuvre
+
+\end{itemize}
+
+\pagebreak
+
+    % Fichier ./docs/tex/11.conclusion.tex
+
+\section{Conclusion}
+
+Terrain.
+
+    % Fichier ./docs/tex/12.annexes.tex
+
+
+% The end
+\end{document}
+

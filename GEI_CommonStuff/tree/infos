@@ -2,7 +2,7 @@
 TITLE="Ceci est le titre!"
 OBJECT="Oh! Je suis un objet!"
 AUTHOR="H4413"
-
+CURRVER="0"
 FILE="document"
 
 LANG="french"

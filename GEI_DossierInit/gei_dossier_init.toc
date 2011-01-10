@@ -1,0 +1,27 @@
+\select@language {french}
+\contentsline {section}{\numberline {1}Introduction}{6}{section.1}
+\contentsline {section}{\numberline {2}Contexte du document}{6}{section.2}
+\contentsline {section}{\numberline {3}Documents de r\IeC {\'e}f\IeC {\'e}rence}{6}{section.3}
+\contentsline {section}{\numberline {4}Rappel du probl\IeC {\`e}me}{6}{section.4}
+\contentsline {section}{\numberline {5}Contraintes g\IeC {\'e}n\IeC {\'e}rales}{6}{section.5}
+\contentsline {section}{\numberline {6}Organisation du travail}{6}{section.6}
+\contentsline {subsection}{\numberline {6.1}Chef de Projet (Cl\IeC {\'e}ment Geiger)}{7}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Responsable Qualit\IeC {\'e} (Hugo Pastore de Cristofaro)}{7}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}GEI}{7}{subsection.6.3}
+\contentsline {section}{\numberline {7}Liste des livrables attendus}{7}{section.7}
+\contentsline {subsection}{\numberline {7.1}Premi\IeC {\`e}re phase}{7}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Chef de projet}{7}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.2}Responsable Qualit\IeC {\'e}}{7}{subsubsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.3}Groupe d'Etudes Informatiques}{7}{subsubsection.7.1.3}
+\contentsline {subsection}{\numberline {7.2}Deuxi\IeC {\`e}me phase}{8}{subsection.7.2}
+\contentsline {section}{\numberline {8}Organigramme des t\IeC {\^a}ches}{8}{section.8}
+\contentsline {subsection}{\numberline {8.1}Macro-phasage}{8}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Diagramme de Gantt}{8}{subsection.8.2}
+\contentsline {section}{\numberline {9}Modalit\IeC {\'e} de suivi}{8}{section.9}
+\contentsline {subsection}{\numberline {9.1}Les r\IeC {\`e}gles de suivi}{8}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Les outils utilis\IeC {\'e}s}{8}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Les proc\IeC {\'e}dures de r\IeC {\'e}vision du planning}{8}{subsection.9.3}
+\contentsline {section}{\numberline {10}Gestion des risques}{8}{section.10}
+\contentsline {subsection}{\numberline {10.1}Risques li\IeC {\'e}s \IeC {\`a} l'\IeC {\'e}quipe}{8}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Risques li\IeC {\'e}s au projet}{8}{subsection.10.2}
+\contentsline {section}{\numberline {11}Conclusion}{9}{section.11}
