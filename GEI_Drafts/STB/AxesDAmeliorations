@@ -1,19 +1,47 @@
-/section{Axes d'améliorations}
+\section{Axes d'améliorations}
 
-Nous avons classé les axes d'améliorations principaux selon deux catégories, les principaux sur lesquels devront se baser les principaux fondements du futur système. 
+Nous avons classé les axes d'améliorations principaux selon deux catégories, les principaux sur lesquels devront se baser les principaux fondements du futur système. Les axes jugés comme marginaux sont à prendre en compte mais le plus souvent ils découlent naturellement des axes principaux. 
+
+\subsection{Axes d'améliorations principaux}
+
+\begin{itemize}
+
+	\item Communication globale \\
+
+	Le système doit être en communication permanente avec les acteurs concernés (COPEVUE, Propriétaires, Compagnies d'interventions). Cette communication doit pouvoir se faire dans les deux sens, à la fois pour faire remonter les informations du capteur vers les utilisateurs et de ces derniers vers ses capteurs pour modifier le paramétrage. 
+
+	\item Tracabilité \\
+
+	Actuellement les informations ne sont pas forcément classées, triés et archivés. La mise en place d'un système de monitoring va permettre de receuillir des informations sur des longues durées afin d'organiser une prévention plus efficace, définir les responsabilités en cas d'accident et d'améliorer les interventions des compagnies d'interventions.
+
+	\item Automatisation \\
+	
+	L'un des buts de ce système est de mettre en place le relevé d'informations par le capteur. Celles-ci vont devoir se faire sans intervention à aucun niveau de l'homme. Cette automatisation devra se faire sur plusieurs niveaux: de la source à l'analyse. 
+	
+	\item Autonomie des systèmes \\
+
+	Les environnements étant difficiles d'accès, une attention particulière sera mise sur l'autonomie des sites. Ces sites devant être autonome électriquement et dans leurs relevés de mesures.
+
+	\item Fiabilité et Robustesse \\
+
+	Les systèmes doivent être fiable et ne nécessitent pas d'intervention de l'homme en cas de problèmes mineures.
+
+\end{itemize}
 
 
-/subsection{Axes d'améliorations principaux}
-Principaux
+\subsection{Marginaux}
 
-- Tracabilité
-- Communication globale
-- Automatisation
-- Autonomie des systèmes 
-- Fiabilité et Robustesse
+\begin{itemize}
+	\item Prévention \\
 
-Marginaux
+	La prévention est un axe essentiel de ce système de monitoring, néanmoins il est marginal. Il est découle des axes principaux, en réalisant les axes principaux il sera facile de mettre en place une politique de prévention. La prévention est la conséquence du fonctionnement de ces axes d'améliorations.
 
-- Prévention
-- Planification
-- Optimisation des coûts
+	\item Planification \\
+
+	Sur le même principe que la prévention, une planification sera permise grâce à une communication créée entre les systèmes embarqués et le serveur central.
+
+	\item Optimisation des coûts \\
+
+		La réduction des coûts est certe un objectif mais il n'est pas en soit un axe d'amélioration. La mise en place de ce système de monitoring ne garantie pas la réduction de ces coûts. Il pourra néanmoins en engendrer sur le long terme une fois l'investissement rentabilisé.
+	
+\end{itemize}
