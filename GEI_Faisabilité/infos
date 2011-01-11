@@ -1,9 +1,9 @@
 # Insert infos here:
-TITLE="Ceci est le titre!"
-OBJECT="Oh! Je suis un objet!"
-AUTHOR="H4413"
-
-FILE="document"
+TITLE="Dossier de faisabilité"
+OBJECT="Étude sur la faisabilité du projet."
+AUTHOR="H4413~-~GEI"
+CURRVER="1"
+FILE="gei_faisabilite"
 
 LANG="french"
 # For hyphenation and other language dependant stuff
