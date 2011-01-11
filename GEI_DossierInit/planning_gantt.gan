@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Projet Ingé" company="INSA" webLink="http://github.com/H4413/GEI" view-date="2011-01-10" view-index="0" gantt-divider-location="315" resource-divider-location="301" version="2.0">
+<project name="Projet Ingé" company="INSA" webLink="http://github.com/H4413/GEI" view-date="2010-12-28" view-index="0" gantt-divider-location="337" resource-divider-location="301" version="2.0">
     <description/>
     <view zooming-state="default:2" id="gantt-chart"/>
     <view id="resource-table">
-        <field id="0" name="Nom" width="55" order="0"/>
-        <field id="1" name="Rôle par défaut" width="44" order="0"/>
+        <field id="0" name="Name" width="55" order="0"/>
+        <field id="1" name="Default role" width="44" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -27,7 +27,7 @@
         <date year="" month="11" date="11"/>
         <date year="2005" month="3" date="28"/>
     </calendars>
-    <tasks>
+    <tasks color="#8cb6ce">
         <taskproperties>
             <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
             <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
@@ -40,32 +40,36 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="2" name="Dossier Init" color="#8cb6ce" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2011-01-10" duration="1" complete="0" priority="1" expand="true">
+        <task id="2" name="Dossier Init Draft" color="#8cb6ce" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2010-12-30" duration="2" complete="100" priority="1" expand="true">
             <depend id="1" type="2" difference="0" hardness="Strong"/>
             <depend id="3" type="2" difference="0" hardness="Rubber"/>
             <depend id="5" type="2" difference="0" hardness="Strong"/>
             <depend id="12" type="2" difference="0" hardness="Strong"/>
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="3" name="Etude de faisabilité" color="#8cb6ce" meeting="false" start="2011-01-11" duration="1" complete="0" priority="2" expand="true">
+        <task id="13" name="Dossier Init" color="#8cb6ce" meeting="false" start="2011-01-05" duration="1" complete="50" priority="1" expand="true"/>
+        <task id="3" name="Etude de faisabilité" color="#8cb6ce" meeting="false" start="2011-01-05" duration="1" complete="75" priority="2" expand="true">
             <depend id="1" type="2" difference="0" hardness="Strong"/>
             <depend id="5" type="2" difference="0" hardness="Strong"/>
             <depend id="12" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="1" name="STB" color="#8cb6ce" meeting="false" start="2011-01-12" duration="1" complete="0" priority="1" expand="true">
+        <task id="1" name="STB" color="#ff0000" meeting="false" start="2011-01-10" duration="1" complete="50" priority="2" expand="true">
             <depend id="5" type="2" difference="0" hardness="Strong"/>
             <depend id="12" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="5" name="Dossier de conception" color="#8cb6ce" meeting="false" start="2011-01-13" duration="1" complete="0" priority="1" expand="true">
-            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        <task id="5" name="Dossier de conception" color="#8cb6ce" meeting="false" start="2011-01-12" duration="1" complete="0" priority="1" expand="true">
+            <depend id="12" type="1" difference="0" hardness="Strong"/>
         </task>
-        <task id="12" name="Dossier de synthèse de réponse" color="#8cb6ce" meeting="false" start="2011-01-14" duration="1" complete="0" priority="1" expand="true"/>
-        <task id="4" name="Dossier de Gestion de la Doc" color="#8cb6ce" meeting="false" start="2011-01-10" duration="1" complete="0" priority="1" expand="true">
+        <task id="12" name="Dossier de synthèse de réponse" color="#8cb6ce" meeting="false" start="2011-01-12" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="4" name="Dossier de Gestion de la Doc" color="#8cb6ce" meeting="false" start="2011-01-05" duration="1" complete="80" priority="1" expand="true">
             <depend id="7" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="7" name="BP Rédaction Procédure" color="#8cb6ce" meeting="false" start="2011-01-11" duration="1" complete="0" priority="1" expand="true"/>
-        <task id="9" name="Fiche d'argumentation" color="#8cb6ce" meeting="false" start="2011-01-10" duration="1" complete="0" priority="1" expand="true"/>
-        <task id="10" name="Procédure de rédaction de dossier d'init" color="#8cb6ce" meeting="false" start="2011-01-10" duration="1" complete="0" priority="1" expand="true"/>
-        <task id="11" name="Draft sur approche produit" color="#8cb6ce" meeting="false" start="2011-01-10" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="7" name="BP Rédaction Procédure" color="#8cb6ce" meeting="false" start="2011-01-10" duration="1" complete="0" priority="1" expand="true">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" name="Procédure de rédaction de dossier d'init" color="#8cb6ce" meeting="false" start="2011-01-12" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="9" name="Fiche d'argumentation" color="#8cb6ce" meeting="false" start="2011-01-13" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="11" name="Draft sur approche produit" color="#8cb6ce" meeting="false" start="2011-01-13" duration="1" complete="0" priority="1" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Clément" function="Default:1" contacts="clement.geiger@gmail.com" phone="0629826055"/>
@@ -77,15 +81,17 @@
     </resources>
     <allocations>
         <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="12" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="4" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="7" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <taskdisplaycolumns>
-        <displaycolumn property-id="tpd3" order="0" width="176"/>
-        <displaycolumn property-id="tpd4" order="1" width="34"/>
-        <displaycolumn property-id="tpd5" order="2" width="33"/>
+        <displaycolumn property-id="tpd3" order="0" width="160"/>
+        <displaycolumn property-id="tpd4" order="1" width="52"/>
+        <displaycolumn property-id="tpd5" order="2" width="31"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
