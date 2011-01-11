@@ -61,15 +61,15 @@
             <depend id="12" type="1" difference="0" hardness="Strong"/>
         </task>
         <task id="12" name="Dossier de synthèse de réponse" color="#8cb6ce" meeting="false" start="2011-01-12" duration="1" complete="0" priority="1" expand="true"/>
-        <task id="4" name="Dossier de Gestion de la Doc" color="#8cb6ce" meeting="false" start="2011-01-05" duration="1" complete="0" priority="1" expand="true">
+        <task id="4" name="Dossier de Gestion de la Doc" color="#8cb6ce" meeting="false" start="2011-01-05" duration="1" complete="80" priority="1" expand="true">
             <depend id="7" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="7" name="BP Rédaction Procédure" color="#8cb6ce" meeting="false" start="2011-01-10" duration="1" complete="0" priority="1" expand="true">
             <depend id="10" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="10" name="Procédure de rédaction de dossier d'init" color="#8cb6ce" meeting="false" start="2011-01-12" duration="1" complete="0" priority="1" expand="true"/>
-        <task id="9" name="Fiche d'argumentation" color="#8cb6ce" meeting="false" start="2011-01-10" duration="1" complete="0" priority="1" expand="true"/>
-        <task id="11" name="Draft sur approche produit" color="#8cb6ce" meeting="false" start="2011-01-10" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="9" name="Fiche d'argumentation" color="#8cb6ce" meeting="false" start="2011-01-13" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="11" name="Draft sur approche produit" color="#8cb6ce" meeting="false" start="2011-01-13" duration="1" complete="0" priority="1" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Clément" function="Default:1" contacts="clement.geiger@gmail.com" phone="0629826055"/>
