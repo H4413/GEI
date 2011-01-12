@@ -1,9 +1,9 @@
 # Insert infos here:
-TITLE="Ceci est le titre!"
-OBJECT="Oh! Je suis un objet!"
-AUTHOR="H4413"
-
-FILE="document"
+TITLE="Spécification technique des besoins"
+OBJECT="Spécifier les besoins techniquement"
+AUTHOR="H4413 - GEI"
+CURRVER="1"
+FILE="gei_stb"
 
 LANG="french"
 # For hyphenation and other language dependant stuff
