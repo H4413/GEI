@@ -2,24 +2,24 @@
 
 \subsection{Carte embarquée}
 
-La société Jennic est un fabricant  de semi-conducteurs leader dans les solutions de connectivit\'e sans fil. A ce titre, elle propose une gamme compl\`ete de microcontrôleurs radiofr\'equences faible consommation capables de g\'erer diff\'erents types de protocoles: IEEE802.15.4, JenNet, 6LowPAN, ZigBee PRO™\\
+La société Jennic est un fabricant  de semi-conducteurs leader dans les solutions de connectivité sans fil. A ce titre, elle propose une gamme complète de microcontrôleurs radiofréquences faible consommation capables de gérer différents types de protocoles: IEEE802.15.4, JenNet, 6LowPAN, ZigBee PRO™\\
 
-Le "JN5148" est probablement un des microcontr\^oleurs radiofr\'equence parmi les plus performants disponibles actuellement sur le march\'e. Avec sa consommation ultra basse (inf\'erieure de 35\% vis-\`a-vis de la plupart des produits concurrents), sa tr\`es grande puissance (coeur RISC 32 Bits) et sa grande capacit\'e m\'emoire (128 KB de ROM et 128 KB de RAM), ce dernier int\`egre un transceiver radio 2,4 GHz tout indiqu\'e pour la r\'ealisation d'applications avec le protocole ZigBeePRO™ sans fil "low-cost" faible consommation.   \\
+Le "JN5148" est probablement un des microcontrôleurs radiofréquence parmi les plus performants disponibles actuellement sur le marché. Avec sa consommation ultra basse sa très grande puissance (coeur RISC 32 Bits) et sa grande capacité mémoire (128 KB de ROM et 128 KB de RAM), ce dernier intègre un émetteur/récepteur radio 2,4 GHz tout indiqué pour la réalisation d'applications avec le protocole ZigBeePRO™ sans fil "low-cost" faible consommation.   \\
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=1\textwidth]{\PIXPATH/wireless}
-\caption{\label{Solution Wireless Microcontroller}Sch\'ema Fonctionnel du Microc\^ontroleur}
+\caption{\label{Solution Wireless Microcontroller}Schéma Fonctionnel du Microcôntroleur}
 \end{figure}
 
-\subsubsection{Caract\'eristiques}
+\textbf{Caractéristiques}\hfill\\
 %\begin{table}[h]
 %\centering
 \begin{longtable}{ |l|c| }
 	\hline
 	\multicolumn{2}{c| } {JN5148 Wireless Microcontroller}  \\
 	\hline \hline
-		Emetteur - R\'ecepteur int\'egr\'e \\
+		Emetteur - Récepteur intégré \\
 		 
 	\hline
 	Bande & 2.4 GHz compatible IEEE802.15.4\\
@@ -34,13 +34,13 @@ Le "JN5148" est probablement un des microcontr\^oleurs radiofr\'equence parmi le
 	\hline
 	 Consommation Emission & 15 A\\
 	 \hline
-	 Consommation R\'eception& 18 mA\\
+	 Consommation Réception& 18 mA\\
 	 \hline
-	 Sensibilit\'e de l\'etage de r\'eception& -95 dBm\\
+	 Sensibilité de l'étage de réception& -95 dBm\\
 	 \hline
-	 Puissance de l\'etage d\'emission& 2.5 dBm\\
+	 Puissance de l'étage d'émission& 2.5 dBm\\
 	\hline
-	Caract\'eristiques du microcontr\^oleur\\
+	Caractéristiques du microcontrôleur\\
 	\hline
 	Processeur& RISC 32 bits (32 MIPs) mode basse consommation\\
 	\hline
@@ -50,9 +50,9 @@ Le "JN5148" est probablement un des microcontr\^oleurs radiofr\'equence parmi le
 	\hline
 	Vitesse horloge& 4 de 32MHz\\
 	\hline
-	entrées "Analogique / Num\'erique"(r\'esol. 12 bits)& 4\\
+	entrées "Analogique / Numérique"(résol. 12 bits)& 4\\
 	\hline
-	sorties DAC (r\'esolution 11 bits)& 2\\
+	sorties DAC (résolution 11 bits)& 2\\
 	\hline
 	Comparateurs& 2\\
 	\hline
@@ -60,9 +60,9 @@ Le "JN5148" est probablement un des microcontr\^oleurs radiofr\'equence parmi le
 	\hline
 	entrées/sorties& Jusqu'à 21\\
 	\hline
-	Capteur de temp\'erature& Int\'egr\'e\\
+	Capteur de température& Intégré\\
 	\hline
-	Temp\'erature de fonctionnement& -40\degres C à +85 \degres C\\
+	Température de fonctionnement& -40\degres C à +85 \degres C\\
 	\hline
 	Boîtier & QFN 56 (8 x 8 mm)\\
 	\hline
@@ -73,15 +73,15 @@ Le "JN5148" est probablement un des microcontr\^oleurs radiofr\'equence parmi le
 %\end {table}
 
 
-Le microcontr\^oleur "JN5148" offre une entière libert\'e de d\'eveloppement. Il sera possible de concevoir une application entièrement autonome, programm\'ee en langage "C" dans laquelle le "JN5148" constituera le coeur du système en ayant recours à des API qui vous donneront accès aux ressources du processeur (ports d'entr\'ees / sorties, entr\'ees de conversion "analogique/num\'erique, activation des modes faible consommation, gestion des communications radio, etc...). Un environnement de d\'eveloppement complet avec \'editeur, compilateur et d\'ebugger est à ce titre disponible en libre téléchargement.
+Le microcontrôleur "JN5148" offre une entière liberté de développement. Il sera possible de concevoir une application entièrement autonome, programmée en langage "C" dans laquelle le "JN5148" constituera le coeur du système en ayant recours à des API qui vous donneront accès aux ressources du processeur (ports d'entrées / sorties, entrées de conversion "analogique/numérique, activation des modes faible consommation, gestion des communications radio, etc...). Un environnement de développement complet avec éditeur, compilateur et débugger est à ce titre disponible en libre téléchargement.
 
 \subsubsection{Avantages}  
 
 \begin{enumerate}
-	\item  Puce unique int\'egrant \'emetteur-r\'ecepteur et microcontr\^oleur pour sans fil r\'eseaux de capteurs (permettant un coût, un encombrement et une consommation r\'eduite de l’application).
-	\item Cœur 32 bits
+	\item  Puce unique intégrant émetteur-récepteur et microcontrôleur pour sans fil réseaux de capteurs (permettant un coût, un encombrement et une consommation réduite de l’application).
+	\item Cœpour 32 bits
 	\item Consommation très faible  
-	\item Capacit\'e m\'emoire parmi les plus importantes du march\'e (pour des microcontr\^oleurs radiofr\'equence).
+	\item Capacité mémoire parmi les plus importantes du marché (pour des microcontrôleurs radiofréquence).
 	\item Protocole de communication ZigBee PRO.
 \end{enumerate}
 
@@ -94,7 +94,7 @@ Le microcontr\^oleur "JN5148" offre une entière libert\'e de d\'eveloppement. I
 
 \smallskip \item Robustesse et Fiabilité: même en cas de problème environnemental l'approvisionnement de l'énergie à la station doit être assuré sans intervention humaine.
 
-\smallskip \item Protection de l' environnement: les stations peuvent se trouver dans des espaces prot\'{e}g\'{e}s donc il faut mettre en place de l'\'{e}nergie non polluante et renouvelable car elle utilise des flux d'\'{e}nergie naturelle(soleil, vent, eau,croissance v\'{e}g\'{e}tale,...).
+\smallskip \item Protection de l' environnement: les stations peuvent se trouver dans des espaces protégés donc il faut mettre en place de l'énergie non polluante et renouvelable car elle utilise des flux d'énergie naturelle(soleil, vent, eau,croissance végétale,...).
 \end{itemize}
 
 \subsubsection{Alternatives}
@@ -102,44 +102,45 @@ Le microcontr\^oleur "JN5148" offre une entière libert\'e de d\'eveloppement. I
 \item Énergie solaire photovolta\"ique
 \begin{description}
 \item [Avantages : ]
-Les syst\`emes solaires photovoltaïques sont simples et rapides à installer, l'investissement  et le rendement sont pr\'{e}visibles à long terme.
-Elle r\'{e}pond aux exigences de robustesse et de fiabilit\'{e} grâce à sa tolérance aux pannes et elle n\'{e}cessite tr\`es peu de maintenance. 
-Elle est exploitable pratiquement partout, la lumi\`ere du soleil \'{e}tant disponible dans le monde entier. %Dans certains pays il fait nuit 6 mois l'année :p  
-Aussi, cette production d'\'{e}nergie ne provoque aucune perturbation pour l' environnement.
+Les systèmes solaires photovoltaïques sont simples et rapides à installer, l'investissement  et le rendement sont prévisibles à long terme.
+Elle répond aux exigences de robustesse et de fiabilité grâce à sa tolérance aux pannes et elle nécessite très peu de maintenance. 
+Elle est exploitable pratiquement partout, la lumière du soleil étant disponible dans le monde entier. %Dans certains pays il fait nuit 6 mois l'année :p  
+Aussi, cette production d'énergie ne provoque aucune perturbation pour l' environnement.
 
-\item [Risques et inconv\'enients : ]
-Ces installations n\'{e}cessitant un apport en soleil, les pays proches des pôles, moins expos\'{e}s aux rayons solaires, sont tr\`es peu rentables.
+\item [Risques et inconvénients : ]
+Ces installations nécessitant un apport en soleil, les pays proches des pôles, moins exposés aux rayons solaires, sont très peu rentables.
 \end{description}
 
-\item Énergie \'{e}olienne
+\item Énergie éolienne
 \begin{description}
 \item [Avantages : ]
-L'\'{e}nergie \'{e}olienne est renouvelable et est id\'{e}ale car il s'agit d une forme d'\'{e}nergie ind\'{e}finiment durable.
-Elle ne produit pas de d\'{e}chets toxiques ou radioactifs. 
+L'énergie éolienne est renouvelable et est idéale car il s'agit d une forme d'énergie indéfiniment durable.
+Elle ne produit pas de déchets toxiques ou radioactifs. 
 Son temps de fonctionnement est d'environ 20 ans.
 
-\item [Risques et inconv\'{e}nients : ]
-L'\'{e}nergie \'{e}olienne varie dans le temps.  Elle tourne uniquement s'il y a du vent.
-La localisation des \'{e}oliennes est d\'{e}pendante de la ressource (le vent) et on ne peut pas les implanter n'importe où. 
-Impact sur la faune, les \'{e}tudes ont constat\'{e} que des \'{e}oliennes \'{e}taient responsable de la mort de quelques oiseaux.
+\item [Risques et inconvénients : ]
+L'énergie éolienne varie dans le temps.  Elle tourne uniquement s'il y a du vent.
+La localisation des éoliennes est dépendante de la ressource (le vent) et on ne peut pas les implanter n'importe où. 
+Impact sur la faune, les études ont constaté que des éoliennes étaient responsable de la mort de quelques oiseaux.
 \end{description}
 
 
-\item Batterie d' accumulateurs
+\item Batterie d'accumulateurs
 \begin{description}
 \item [Avantages : ]
 Pour une alimentation sans interruption, les batteries stockent l'énergie permettant d'alimenter de quelques minutes à quelques heures.
-Il existe les batteries rechargeables qui sont orient\'{e}es pour un fonctionnement avec des panneaux photovoltaïques ou  \'{e}oliennes(dur\'{e}e de vie augment\'{e}, propriét\'{e} anticorrosion grâces à des plaques positives \'{e}paisses, recyclable)
+Il existe les batteries rechargeables qui sont orientées pour un fonctionnement avec des panneaux photovoltaïques ou  éoliennes(durée de vie augmenté, propriété anticorrosion grâces à des plaques positives épaisses, recyclable)
 
-\item [Inconv\'{e}nients : ]
-Le poids est important donc les frais de port peuvent s'av\'{e}rer cons\'{e}quents.
+\item [Inconvénients : ]
+Batterie à remplacer au bout d'un certain temps car ses performances
+finissent par se dégrader.\\ 
 Polluant.
 
 \end{description}
 \end{enumerate}
 
 \subsubsection{Choix de solution}
-Après un analyse des exigences du syst\`eme nous proposons la combinaison de l'utilisation de batteries pour le stockage et pour la production une \'{e}nergie renouvelable pour satisfaire l'autonomie \'{e}nerg\'{e}tique.
+Après un analyse des exigences du système nous proposons la combinaison de l'utilisation de batteries pour le stockage et pour la production une énergie renouvelable pour satisfaire l'autonomie énergétique.
 
 \subsection{Capteurs}
 
@@ -259,7 +260,7 @@ Prix: 32 euros
 Cette carte peut être reliée directement à l'ordinateur par une entré PCI.
 Prix: environ 50 euros.
 \end{description}
-\subsection{Serveur}
+\subsection{Serveur central}
 
     \subsubsection{Exigences}
     Il nous faut un ensemble de serveurs capables de répondre à un grand
@@ -268,15 +269,14 @@ Prix: environ 50 euros.
 
     \subsubsection{Solutions}
         \begin{enumerate}
-            \item Monter nos serveurs
-            
+            \item Monter nos propres serveurs\\
             La première solution est de monter nos propres serveurs.
             L'avantage est que nous avons les locaux pour héberger une telle solution, et qu'il sera possible de faire évoluer le parc en fonction des besoins.
     
             Les inconvénients sont cependant nombreux: il faudrait embaucher une équipe dédiée à la gestion de ces serveurs, mais également les entretenir,
-            les faire évoluer. De plus, ils sont très onéreux à l'achat.
+            les faire évoluer. De plus, ils sont très onéreux à l'achat.\\
 
-            \item Louer des serveurs
+            \item Louer des serveurs\\
             Une seconde solution consiste à louer des serveurs, dans un \textsl{datacenter} par exemple.
 
             Les avantages sont nombreux: nous n'aurions pas à engager une équipe pour
@@ -288,7 +288,7 @@ Prix: environ 50 euros.
         \end{enumerate}
     \subsection{conclusion}
     Il semblerait qu'il soit préférable de louer les services d'un datacenter, du moins pendant la phase d'exploitation. En phase de développement,
-il serait cependant possible d'avoir un petit serveur pour faire une mise au point à petite échelle.
+il serait cependant possible et préférable d'avoir un petit serveur pour faire une mise au point à petite échelle.
 %
 \vfill
 \pagebreak
