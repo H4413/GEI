@@ -6,15 +6,13 @@ RM=rm -rfv
 MV=mv -v
 ECHO=@echo
 
-SH=sh
-
 all: pdf 
 
 re: clean all
 
 tex:
 	${ECHO} "	*** Generating LaTeX file... ***"
-	${SH} ./docs/gen.sh
+	bash ./docs/gen.sh
 	${ECHO} "	*** LaTeX file generated. ***"
 
 
