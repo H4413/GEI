@@ -3,7 +3,7 @@ TITLE="Ebauche de la Conception Détaillée"
 OBJECT="Ce document donne une ébauche de la conception du système pour le projet GEI."
 AUTHOR="H4413"
 CURRVER="0"
-FILE="document"
+FILE="gei_ebauche_concep_det"
 
 LANG="french"
 # For hyphenation and other language dependant stuff
