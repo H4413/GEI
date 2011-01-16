@@ -3,7 +3,7 @@ TITLE="Dossier de Gestion et de Structuration de la Documentation"
 OBJECT="Structure de l'ensemble de la documentation pour le projet GEI."
 AUTHOR="H4413"
 
-FILE="document"
+FILE="gei_gestion_doc"
 
 LANG="french"
 # For hyphenation and other language dependant stuff
