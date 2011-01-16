@@ -7,14 +7,22 @@ communiquer avec les différents interlocuteurs.
 
 \subsection{Systèmes embarqués}
 
-Les systèmes embarqués tourneront sous un système d'exploitation Linux. 
+Les systèmes embarqués tourneront sous un système d'exploitation Linux ou VxWorks. 
 
-Lorsque l'antenne bluetooth sera allumée, le système embarqué lancera un serveur web
-contenant une application où l'on pourra retrouver les dernières données issues
-des capteurs et paramétrer quelques valeurs dynamiquement. 
+Pour permettre une gestion optimale de l'énergie, le système embarqué sera actif
+uniquement pendant un cours laps de temps par jour: le système de prise de mesure
+autant de fois qu'il faut prendre des mesures dans la journée, le système de
+transmission une fois par jour pour transmettre les données collectées pendant
+les dernières 24 heures, et éventuellement pour être configurés.
+Tout cela doit être règlable, au cas ou l'on veuille par exemple plusieurs transmissions
+par jour ou au contraire mois d'une transmission par jour, et pour régler l'intervalle de
+prises de mesures.
 
-Pour minimiser les dépenses d'énergies en générant de l'activé sur les processeurs, 
-ce serveur web sera éteint lors que l'antenne bluetooth est éteinte. 
+Un technicien peut manuellement mettre en route le dispositif sur place pour
+le configurer et consulter ses données.
+
+Quand le système ne sera pas en fonctionnement, il sera en mode veille, lui
+permettant d'utiliser le moins d'énergie possible.
 
 %définir le matos
 
