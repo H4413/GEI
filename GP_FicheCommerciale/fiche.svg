@@ -19,6 +19,13 @@
    sodipodi:docname="fiche.svg">
   <defs
      id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="24.285714 : 319.03823 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="926.95162 : 597.60966 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective6549" />
     <marker
        inkscape:stockid="Arrow1Mstart"
        orient="auto"
@@ -96,8 +103,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="433.88069"
-     inkscape:cy="529.74943"
+     inkscape:cx="453.63839"
+     inkscape:cy="544.13781"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -127,15 +134,20 @@
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="41.142853"
-       y="76.647903"
+       x="365.92438"
+       y="65.21933"
        id="text2985"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan2987"
-         x="41.142853"
-         y="76.647903"
-         style="font-size:36px">Monitoring à distance de sites isolés</tspan></text>
+         x="365.92438"
+         y="65.21933"
+         style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold">Monitoring à distance</tspan><tspan
+         sodipodi:role="line"
+         x="365.92438"
+         y="110.21933"
+         style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold"
+         id="tspan6581">de sites isolés</tspan></text>
     <image
        width="577.67255"
        height="352.14285"
@@ -198,14 +210,14 @@
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="69.502228"
-       y="120.93362"
+       x="66.645088"
+       y="170.93362"
        id="text5634"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5636"
-         x="69.502228"
-         y="120.93362">Projet européen lancé à l'initiative de la COPEVUE</tspan></text>
+         x="66.645088"
+         y="170.93362">Projet européen lancé à l'initiative de la COPEVUE</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -278,19 +290,19 @@
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="262.85715"
-       y="709.505"
+       y="722.36212"
        id="text5721"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5723"
          x="262.85715"
-         y="709.505"
+         y="722.36212"
          style="font-size:22px">Une interface client <tspan
    style="font-weight:bold;-inkscape-font-specification:Sans Bold"
    id="tspan5727">efficace et intuitive</tspan></tspan><tspan
          sodipodi:role="line"
          x="262.85715"
-         y="733.01801"
+         y="745.87512"
          id="tspan5725"
          style="font-size:18px">Basée dans le cloud pour une disponibilité optimale</tspan></text>
     <path
@@ -299,5 +311,69 @@
        id="path5729"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="740.93781"
+       y="926.64795"
+       id="text6565"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6567"
+         x="740.93781"
+         y="926.64795"
+         style="font-size:18px;font-weight:bold;text-align:end;text-anchor:end;-inkscape-font-specification:Sans Bold">TEAM H4413</tspan><tspan
+         sodipodi:role="line"
+         x="740.93781"
+         y="947.15448"
+         id="tspan6569"
+         style="font-size:16px;text-align:end;text-anchor:end">Clément Geiger</tspan><tspan
+         sodipodi:role="line"
+         x="740.93781"
+         y="967.15448"
+         id="tspan6571"
+         style="font-size:16px;text-align:end;text-anchor:end">Hugo Pastore de Cristofaro</tspan><tspan
+         sodipodi:role="line"
+         x="740.93781"
+         y="987.15448"
+         id="tspan6573"
+         style="font-size:16px;text-align:end;text-anchor:end">Karen Abanto</tspan><tspan
+         sodipodi:role="line"
+         x="740.93781"
+         y="1007.1545"
+         id="tspan6575"
+         style="font-size:16px;text-align:end;text-anchor:end">Victor Borges</tspan><tspan
+         sodipodi:role="line"
+         x="740.93781"
+         y="1027.1544"
+         id="tspan6577"
+         style="font-size:16px;text-align:end;text-anchor:end">Raphaël Lizé</tspan><tspan
+         sodipodi:role="line"
+         x="740.93781"
+         y="1047.1544"
+         id="tspan6579"
+         style="font-size:16px;text-align:end;text-anchor:end">Quentin Villers</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="119.99998"
+       y="573.79077"
+       id="text6583"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6585"
+         x="119.99998"
+         y="573.79077"
+         style="font-size:18px">Communication </tspan><tspan
+         sodipodi:role="line"
+         x="119.99998"
+         y="596.29077"
+         style="font-size:18px"
+         id="tspan6589">station-serveur </tspan><tspan
+         sodipodi:role="line"
+         x="119.99998"
+         y="618.79077"
+         style="font-size:18px"
+         id="tspan6587">par GSM</tspan></text>
   </g>
 </svg>
