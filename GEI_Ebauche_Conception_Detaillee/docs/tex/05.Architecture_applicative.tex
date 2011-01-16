@@ -1,1 +1,58 @@
 \section{Architecture Applicative}
+
+\subsection{Systèmes embarqués}
+
+Les systèmes embarqués fonctionneront sous une distribution de Linux. Le
+coût de license sera ainsi nul. 
+
+Les systèmes embarqués pourront héberger un serveur web qui ne sera
+accessible que localement par les propriétaires ou les sociétés
+d'interventions. Cette interface comportera seulement quelques pages avec
+notamment des logs et des options pour le paramétrage. Cette application
+web ressemblera à une interface de gestion de box.
+
+En cas de problème plus important on pourra se connecter via une console de
+type SSH.
+
+\subsection{Serveurs Centraux}
+
+Le serveur central comprendra une base de donnnées sur laquelle on fera les
+communications avec le système embarqué. Nous pourrons aussi y placer des
+applications de mise à jour de la version des logiciels de système
+embarqué. 
+
+Le système de gestion du monitoring et des gestions des interventions est
+OpenERP. Un ERP est parfaitement adapté à la gestion de ce système de
+surveillance. De plus on peut l'associer avec des systèmes de Business
+Intelligence comme Pentaho ou Jasper pour faire du reporting. Ainsi selon
+les profils, on pourra générer des rapports facilement et dynamiquement en
+fonction des besoins.  De plus les compagnies d'intervention pourront
+traiter leurs interventions via ce système et gérer éventuellement la
+facturation (hors cadre de l'appel d'offre).
+
+L'utilisation d'un ERP open source va donc limiter les coûts logiciels
+(seulement du paramétrage) et limiter la taille du développement
+spécifique. De plus il s'inscrit dans une démarche de progicielisation qui
+permettra d'augmenter simplement le nombre et le type de capteurs ainsi que
+de diversifier les intervenants dans ce système.
+
+Pour aller plus loin : 
+\begin{itemize}
+\item Jasper Soft outil de reporting et de BI http://www.jaspersoft.com/
+\item OpenERP, l'ERP libre de référence http://www.openerp.com/
+\end{itemize}
+
+\subsection{Utilisation distante}
+
+L'utilisation à distance va pouvoir se faire via un navigateur web. OpenERP
+possède directement une interface web qui est paramétrable en fonction des
+profils.
+
+En se connectant à l'ERP les acteurs de ce système pourront suivre la
+situation de leurs cuves.
+
+Selon les besoins des utilisateurs, les outils de reporting feront des
+rapports aux décideurs sur la fréquence des besoins établis. (Exemple: le
+COPEVUE veut connaître le nombre d'interventions faites par pays tous les
+mois). Ces reportings seront accessibles envoyés automatiquement par email
+ou disponible via l'ERP. 
