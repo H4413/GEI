@@ -7,7 +7,22 @@ communiquer avec les différents interlocuteurs.
 
 \subsection{Systèmes embarqués}
 
-Les systèmes embarqués tourneront sous un système d'exploitation Linux. 
+Les systèmes embarqués tourneront sous un système d'exploitation Linux ou VxWorks. 
+
+Pour permettre une gestion optimale de l'énergie, le système embarqué sera actif
+uniquement pendant un cours laps de temps par jour: le système de prise de mesure
+autant de fois qu'il faut prendre des mesures dans la journée, le système de
+transmission une fois par jour pour transmettre les données collectées pendant
+les dernières 24 heures, et éventuellement pour être configurés.
+Tout cela doit être règlable, au cas ou l'on veuille par exemple plusieurs transmissions
+par jour ou au contraire mois d'une transmission par jour, et pour régler l'intervalle de
+prises de mesures.
+
+Un technicien peut manuellement mettre en route le dispositif sur place pour
+le configurer et consulter ses données.
+
+Quand le système ne sera pas en fonctionnement, il sera en mode veille, lui
+permettant d'utiliser le moins d'énergie possible.
 
 les systèmes auront les composants suivants : 
 \begin{itemize}
@@ -23,10 +38,10 @@ les systèmes auront les composants suivants :
 \subsection{Clients mobiles}
 
 Les clients mobiles utilisés pour communiquer localement avec les systèmes embarqués auront besoin des spécifications suivantes : 
-
-- Accès mobile par un accès bluetooth
-- Navigateur internet pour accéder au serveur web du système embarqué
-
+\begin{itemize}
+\item Accès mobile par un accès bluetooth
+\item Navigateur internet pour accéder au serveur web du système embarqué
+\end{itemize}
 Le principal avantage de la connexion par un navigateur internet au système embarqué et que le client mobile n'aura pas à installer d'application tierce.
 
 \subsection{Serveurs}
@@ -46,4 +61,3 @@ Le prix estimé est de 100$ par mois, pour une centaine de sites.
 
 http://www.gogrid.com/cloud-hosting/cloud-hosting-pricing.php
 
-\subsection{}
