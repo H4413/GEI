@@ -30,7 +30,7 @@
 	\item messages de commandes \\
 		\begin{itemize}
 		\item Un utilisateur peut demander les données de la station sur son smartphone.\\
-		\item Le serveur central peut aussi envoyer message vers la station avec des commandes de configuration, de maintenance ou des requêtes destinées aux capteurs.
+		\item Le serveur central peut aussi envoyer message vers la station avec des commandes de configuration, de maintenance ou des requêtes destinées aux capteurs.\\
 		\end{itemize}
 	
 	\item messages de données (informations sur les capteurs)\\
@@ -43,7 +43,7 @@
 	\item messages d'erreur/d'alerte\\
 		\begin{itemize}
 		\item En cas de seuils dépassé, les données son archivés dans un fichier local pour après  transmettre un message d'alerte avec ces données, au serveur central ou client mobile par le réseau GSM. \\
-		\item Si pendant un envoi de message li y'a un échec en la communication, la station recommence son envoi un certain nombre de fois(1 à 4), et lorsque cela fonctionne un message'erreur pour perte de communication s'ajoute au 1ère message.\\
+		\item Si pendant un envoi de message li y'a un échec en la communication, la station recommence son envoi un certain nombre de fois(1 à 4), et lorsque cela fonctionne un message d'erreur pour perte de communication s'ajoute au 1ère message.\\
 		\item Si après avoir fait 4 tentes on n'arrive pas à faire la transmission de message vers le serveur central, on attend le prochaine créneau d'envoi.\\
 		\item A Chaque envoi vers le serveur central ou client mobile est joint un message avec le niveau de batterie et rapports d'erreur.\\
 		\end{itemize}\hfill\\
