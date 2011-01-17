@@ -1,1 +1,64 @@
 \section{Architecture Informatique et Matérielle}
+
+\subsection{Systèmes embarqués}
+
+Les systèmes embarqués tourneront sous un système d'exploitation Linux ou VxWorks. 
+
+Pour permettre une gestion optimale de l'énergie, le système embarqué sera actif
+uniquement pendant un cours laps de temps par jour: le système de prise de mesure
+autant de fois qu'il faut prendre des mesures dans la journée, le système de
+transmission une fois par jour pour transmettre les données collectées pendant
+les dernières 24 heures, et éventuellement pour être configurés.
+Tout cela doit être règlable, au cas ou l'on veuille par exemple plusieurs transmissions
+par jour ou au contraire mois d'une transmission par jour, et pour régler l'intervalle de
+prises de mesures.
+
+Un technicien peut manuellement mettre en route le dispositif sur place pour
+le configurer et consulter ses données.
+
+Quand le système ne sera pas en fonctionnement, il sera en mode veille, lui
+permettant d'utiliser le moins d'énergie possible.
+
+%les systèmes auront les composants suivants : 
+%\begin{itemize}
+%\item{Intel ATOM Z500} Processeur Ultra Low Voltage consommant un TDP de 0.65W, l'un des plus faible du marché pour des performances suffisantes (50€)
+%\item{RAM} Ultra Low Voltage de fournisseurs comme OCZ (30€)
+%\item{}
+%\end{itemize}
+
+%définir le matos
+
+\subsection{Clients mobiles}
+
+Les clients mobiles utilisés pour communiquer localement avec les systèmes embarqués auront besoin des spécifications suivantes : 
+\begin{itemize}
+\item Accès mobile par un accès bluetooth
+\item Navigateur internet pour accéder au serveur web du système embarqué
+\end{itemize}
+Le principal avantage de la connexion par un navigateur internet au système embarqué et que le client mobile n'aura pas à installer d'application tierce.
+
+\subsection{Serveurs}
+
+Les serveurs seront hébergés sur le cloud. Nous pouvons choisir l'hébergeur GoGrid (fournisseur IAAS) 
+qui propose des solutions adaptées en fonction de l'utilisation du serveur.
+
+L'utilisation d'un hébergeur va permettre de limiter les coûts
+d'utilisation du serveur.  En effet l'activité des serveurs est à la fois
+saisonale 
+(\textit{il est plus important de surveiller l'activité des sites méditérannéens lors de la saison des incendies}) et
+périodique sur un délai du jour. En effet les échanges auront lieu à une
+heure donnée et l'utilisation du serveur par les acteurs tiers aura lieu
+pendant les heures de bureaux (de 8:00 à 18:00)
+
+L'ensemble de ces facteurs nous font choisir l'hébergement par GoGrid
+puisqu'ils permettent d'attribuer les ressources dynamiquement en fonction
+des besoins. De plus le COPEVUE n'aura a payé que l'utilisation des
+ressources. De plus ces hébergeurs sont spécialistes dans la sécurisation
+des données et proposent de multiples redondances. 
+
+Dans un premier temps, nous choissirons le plan "Pay as You Go" qui sera
+idéal pour soutenir les communications avec une centaine de sites pilotes.
+Le prix estimé est de 100\$ par mois, pour une centaine de sites.
+
+\url{http://www.gogrid.com/cloud-hosting/cloud-hosting-pricing.php}
+
