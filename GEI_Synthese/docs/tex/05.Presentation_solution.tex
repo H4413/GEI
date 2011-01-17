@@ -1,9 +1,22 @@
+%% mettre les images correctement
+
 \section{Présentation de la solution}
 
 \subsection{Architecture}
 Le schéma suivant donne l'architecture globale du système :
 
 %inclure schéma global
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth]{\PIXPATH/reseau}
+\caption{\label{Architecture globale du système}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth]{\PIXPATH/concep_generale}
+\caption{\label{Conception générale du système}}
+\end{figure}
 
 Le système se décompose entre 3 parties : les sites, le serveur et les 
 interfaces clients.
@@ -21,9 +34,9 @@ minimisant les coûts.
 Les serveurs utilisent Linux.
 
 Les interfaces clients sont des sites internet (ERP web) disponibles sur 
-plusieurs types de plateforme (ordinateur, PDA, smartphone, etc...). Elles sont simples
-et orientées utilisateur, c'est-à-dire prévues pour être utilisées facilement
-par des personnes non initiées à l'informatique.
+plusieurs types de plateforme (ordinateur, PDA, smartphone, etc...). Elles sont 
+simples et orientées utilisateur, c'est-à-dire prévues pour être utilisées 
+facilement par des personnes non initiées à l'informatique.
 A ces interfaces se greffent des interfaces de maintenance disponibles
 localement sur les sites. 
 
@@ -45,7 +58,11 @@ L'uilisateur peut consulter les données à partir de son client ERP.
 \subsection{Apports de la solution proposée}
 Le tableau suivant reprend les améliorations apportées par le nouveau système :
 
-%inclure tableau bilan.ods
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth]{\PIXPATH/amelioration}
+\caption{\label{Améliorations}}
+\end{figure}
 
 Facilité d'évolution avec l'utilisation d'un ERP.
 Aucun coût de licence en utilisant Linux et OpenERP.
