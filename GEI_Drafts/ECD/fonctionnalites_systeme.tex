@@ -1,0 +1,52 @@
+%!TEX encoding = UTF-8 Unicode
+\documentclass [a4paper] {report}
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage{longtable}
+\begin {document}
+\section{Fonctionnement}
+
+\begin{description}
+
+\item[Initialisation]\hfill\\
+	\begin{itemize}
+	Lorsque une nouvelle station se connecte sur le réseau afin de récupérer sa configuration, une commande est envoyé depuis le serveur central ou client mobile avec les paramètres( nombre de capteurs, configuration de seuils, mise à jour du code, etc.).\\\\
+	\end{itemize}
+
+\item [Communication]\hfill\\
+	\begin{itemize}
+	\item Périodiquement le système embarqué lit les valeur des différents capteurs, ces données sont stockés avant de être envoyés vers les serveur central.
+	\item Le système embarqué les compare avec les seuils paramètres pour déterminer si un des seuils à été franchi. 
+	\item En cas de anomalie, les données son archivés dans un fichier local et ensuite il tente de transmettre un message d'alerte avec les données, au serveur central ou client mobile par le réseau GSM. 
+	\item S'il y a un échec en la communication, la station recommence son envoi un certain nombre de fois, et lorsque cela fonctionne un message d'erreur pour perte de communication s'ajoute.
+	\item Les envois de données sont effectués à intervalles de temps régulier paramètres selon les besoins de l'utilisateur(un minute chaque 10 heures), le nombre de tentatives d'envoi(1 à 4).
+	\item Un utilisateur peut demander les données de la station sur son smartphone
+	\item A Chaque envoi vers le serveur central ou client mobile est joint un message avec le niveau de batterie et rapports d'erreur.
+	\item Le serveur central peut aussi envoyer message vers la station avec des commandes de configuration, de maintenance ou des requêtes destinées aux capteurs \\\\
+\end{itemize}\\
+\item [Les Alarmes]\hfill\\
+	\\ La alarme est activée:
+	\begin{itemize}
+		\item si le système embarquée détecte un seuil dépassé
+		\item Si le système embarquée détecte un dysfonctionnement d'un capteur. \\\\
+	\end{itemize}\\
+\item [Gestion des erreurs]\hfill\\
+	\\ Les message d'erreur ou d'alerte sont envoyés avec un identifiant de message , identifient de station et un type (erreur ou alerte), en cas  :
+		\begin{itemize}
+		\item un bug, problème de cohérence de valeurs, 
+		\item si le système embarqué est perturbé et se trouve instable pour un événement extérieur(problèmes climatiques, impulsion magnétique), il fait un redémarrage, puis quand il est stable, il envoi au serveur central un message indiquant son redémarrage  
+		\item si c'est la fin de maintenance, etc\\\\
+	\end{itemize}	\\
+\item [Maintenance]\hfill\\
+	\begin{itemize}
+	\item Les demandes d'intervention ont un niveau d'urgence, ce qui permet d'intervenir au plus vite sur une station en situation critique.
+	\item Si la maintenance est à distance, la station archive les commandes reçues et les actions effectues. L'utilisateur peut ajouter les causes et résultats obtenu lors de la maintenance.
+	\item Si la maintenance est physique, l'intervenant peut signaler depuis son smartphone, l'état du système à la fin de l'intervention ainsi que le traitement effectué. 
+	\item Le serveur de la station archive ces informations et les signale au serveur central ou client mobile.
+	\end{itemize}
+\end{enumerate}	
+\end{document}			
