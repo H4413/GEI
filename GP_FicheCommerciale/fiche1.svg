@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.0 r9654"
-   sodipodi:docname="fiche.svg">
+   sodipodi:docname="fiche1.svg">
   <defs
      id="defs4">
     <inkscape:perspective
@@ -102,8 +102,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="32.87067"
-     inkscape:cy="696.53284"
+     inkscape:cx="-81.415044"
+     inkscape:cy="582.24713"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -122,7 +122,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -136,11 +136,11 @@
        height="51.790638"
        x="1.0764242"
        y="0.36221647"
-       style="fill:#800080"
+       style="fill:#000080"
        transform="matrix(1,0,-0.01379179,0.99990489,0,0)" />
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;font-family:Sans"
        x="358.78152"
        y="120.93362"
        id="text2985"
@@ -149,12 +149,12 @@
          id="tspan2987"
          x="358.78152"
          y="120.93362"
-         style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold;fill:#800080">Solution de Monitoring globale</tspan><tspan
+         style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;fill:#000080;-inkscape-font-specification:Sans Bold">Solution de Global Monotoring</tspan><tspan
          sodipodi:role="line"
          x="358.78152"
          y="165.93362"
-         style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans Bold;fill:#800080"
-         id="tspan6581">pour les sites naturels</tspan></text>
+         style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;fill:#000080;-inkscape-font-specification:Sans Bold"
+         id="tspan6581">adaptée aux sites naturels</tspan></text>
     <image
        width="577.67255"
        height="352.14285"
@@ -200,14 +200,14 @@
          y="874.69983"
          style="font-size:18px;text-align:start;text-anchor:start"
          id="tspan5632">    Toujours dans le <tspan
-   style="font-weight:bold;-inkscape-font-specification:Sans Bold;fill:#800080"
+   style="font-weight:bold;-inkscape-font-specification:Sans Bold;fill:#000080"
    id="tspan5687">respect de l'environnement </tspan></tspan><tspan
          sodipodi:role="line"
          x="40.161186"
          y="897.19983"
          style="font-size:18px;text-align:start;text-anchor:start"
          id="tspan5685">tout en garantissant <tspan
-   style="font-weight:bold;-inkscape-font-specification:Sans Bold;fill:#800080"
+   style="font-weight:bold;-inkscape-font-specification:Sans Bold;fill:#000080"
    id="tspan5689">une autonomie optimale</tspan></tspan><tspan
          sodipodi:role="line"
          x="40.161186"
@@ -227,28 +227,31 @@
          y="202.3622"
          style="fill:#483737">Projet européen lancé à l'initiative de la COPEVUE</tspan></text>
     <g
-       id="g3106">
+       id="g3106"
+       style="fill:#000080">
       <text
          sodipodi:linespacing="125%"
          id="text5667"
          y="266.64786"
          x="11.428569"
-         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;font-family:Sans"
          xml:space="preserve"><tspan
-           style="font-size:22px"
+           style="font-size:22px;fill:#000080"
            y="266.64786"
            x="11.428569"
            id="tspan5669"
-           sodipodi:role="line">Un système <tspan
-   id="tspan5691"
-   style="font-weight:bold;-inkscape-font-specification:Sans Bold;fill:#800080">embarqué autonome configurable et modulaire</tspan></tspan><tspan
+           sodipodi:role="line"><tspan
+             style="fill:#000000"
+             id="tspan3051">Un système</tspan><tspan
+             id="tspan5691"
+             style="font-weight:bold;-inkscape-font-specification:Sans Bold;fill:#000080"> embarqué autonome configurable et modulaire</tspan></tspan><tspan
            id="tspan5681"
-           style="font-size:22px"
+           style="font-size:22px;fill:#000080"
            y="294.14786"
            x="11.428569"
            sodipodi:role="line" /><tspan
            id="tspan5683"
-           style="font-size:22px"
+           style="font-size:22px;fill:#000080"
            y="321.64786"
            x="11.428569"
            sodipodi:role="line" /></text>
@@ -307,7 +310,7 @@
          x="262.85715"
          y="722.36212"
          style="font-size:22px">Une interface client <tspan
-   style="font-weight:bold;-inkscape-font-specification:Sans Bold;fill:#800080"
+   style="font-weight:bold;-inkscape-font-specification:Sans Bold;fill:#000080"
    id="tspan5727">efficace et intuitive</tspan></tspan><tspan
          sodipodi:role="line"
          x="262.85715"
@@ -331,8 +334,8 @@
          sodipodi:role="line"
          x="465.8623"
          y="20.419338"
-         style="font-size:20px;font-weight:normal;text-align:end;text-anchor:end;-inkscape-font-specification:Sans;fill:#f4eed7"
-         id="tspan3067">TEAM H4413 &gt; Solution de Monitoring globale</tspan><tspan
+         style="font-size:20px;font-weight:normal;text-align:end;text-anchor:end;fill:#f4eed7;-inkscape-font-specification:Sans"
+         id="tspan3067">TEAM H4413 &gt; Solution de Global Monitoring</tspan><tspan
          sodipodi:role="line"
          x="465.8623"
          y="45.419338"
@@ -370,7 +373,7 @@
            height="48.57143"
            x="0"
            y="9.5050402" /></flowRegion><flowPara
-         id="flowPara3077"></flowPara></flowRoot>    <text
+         id="flowPara3077" /></flowRoot>    <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="4.4642854"
