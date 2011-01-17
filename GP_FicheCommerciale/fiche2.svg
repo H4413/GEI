@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="fiche2.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="24.285714 : 319.03823 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="926.95162 : 597.60966 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective6549" />
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path5740"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Sstart"
+       style="overflow:visible">
+      <path
+         id="path5746"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.2) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path5734"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <linearGradient
+       id="linearGradient5346"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5348" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3898"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3900" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3902" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3892"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3894" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="716.38727"
+     inkscape:cy="311.70125"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1680"
+     inkscape:window-height="973"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       id="rect3102"
+       width="743.21429"
+       height="51.790638"
+       x="1.0764242"
+       y="0.36221647"
+       style="fill:#000080"
+       transform="matrix(1,0,-0.01379179,0.99990489,0,0)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5705"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion5707"><rect
+           id="rect5709"
+           width="902.85712"
+           height="474.28571"
+           x="-91.428574"
+           y="338.07648" /></flowRegion><flowPara
+         id="flowPara5711" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5713"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion5715"><rect
+           id="rect5717"
+           width="5.7142859"
+           height="75.714287"
+           x="502.85715"
+           y="562.36218" /></flowRegion><flowPara
+         id="flowPara5719" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="465.8623"
+       y="20.419338"
+       id="text6565"
+       sodipodi:linespacing="125%"
+       transform="scale(0.97543132,1.0251875)"><tspan
+         sodipodi:role="line"
+         x="465.8623"
+         y="20.419338"
+         style="font-size:20px;font-weight:normal;text-align:end;text-anchor:end;fill:#f4eed7;-inkscape-font-specification:Sans"
+         id="tspan3067">TEAM H4413 &gt; Solution de Global Monitoring</tspan><tspan
+         sodipodi:role="line"
+         x="465.8623"
+         y="45.419338"
+         id="tspan6579"
+         style="font-size:20px;font-weight:normal;text-align:end;text-anchor:end;-inkscape-font-specification:Sans" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3071"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3073"><rect
+           id="rect3075"
+           width="12.857142"
+           height="48.57143"
+           x="0"
+           y="9.5050402" /></flowRegion><flowPara
+         id="flowPara3077" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="4.4642854"
+       y="40.219326"
+       id="text3079"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3081"
+         x="4.4642854"
+         y="40.219326"
+         style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic;fill:#c8b7b7">Performance comes standard</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-189.90868"
+       y="303.83914"
+       id="text3114"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3116"
+         x="-189.90868"
+         y="303.83914" /></text>
+    <rect
+       style="fill:#000080;fill-rule:evenodd;stroke:#000000;stroke-width:1.05961298999999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3051"
+       width="340.9404"
+       height="168.94038"
+       x="20.529806"
+       y="182.892" />
+    <rect
+       style="fill:#000080;fill-rule:evenodd;stroke:#000000;stroke-width:1.05961298999999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3051-7"
+       width="340.9404"
+       height="168.94038"
+       x="382.52982"
+       y="182.892" />
+    <rect
+       style="fill:#000080;fill-rule:evenodd;stroke:#000000;stroke-width:1.05961298999999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3051-2"
+       width="340.9404"
+       height="168.94038"
+       x="382.52982"
+       y="562.89197" />
+    <rect
+       style="fill:#000080;fill-rule:evenodd;stroke:#000000;stroke-width:1.05961298999999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3051-3"
+       width="340.9404"
+       height="168.94038"
+       x="382.52982"
+       y="372.892" />
+    <rect
+       style="fill:#000080;fill-rule:evenodd;stroke:#000000;stroke-width:1.05961298999999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3051-8"
+       width="340.9404"
+       height="168.94038"
+       x="20.529806"
+       y="562.89197" />
+    <rect
+       style="fill:#000080;fill-rule:evenodd;stroke:#000000;stroke-width:1.05961298999999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3051-0"
+       width="340.9404"
+       height="168.94038"
+       x="20.529806"
+       y="372.892" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="93.14286"
+       y="221.23341"
+       id="text3030"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3032"
+         x="93.14286"
+         y="221.23341"
+         style="fill:#ffffff">Simplicité</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3042"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3044"><rect
+           id="rect3046"
+           width="204.28572"
+           height="78.571426"
+           x="20"
+           y="240.93361" /></flowRegion><flowPara
+         id="flowPara3048"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3050"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3052"><rect
+           id="rect3054"
+           width="327.14285"
+           height="108.57143"
+           x="24.285715"
+           y="235.21933" /></flowRegion><flowPara
+         id="flowPara3056"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="28.571436"
+       y="262.66199"
+       id="text3058"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3060"
+         x="28.571436"
+         y="262.66199"
+         style="font-size:25px;fill:#ffffff">Gestion centralisée</tspan><tspan
+         sodipodi:role="line"
+         x="28.571436"
+         y="293.91199"
+         id="tspan3062"
+         style="font-size:25px;fill:#ffffff">Alertes par email ou sms</tspan><tspan
+         sodipodi:role="line"
+         x="28.571436"
+         y="325.16199"
+         id="tspan3064"
+         style="font-size:25px;fill:#ffffff">Interface multiplateforme</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="456.11841"
+       y="221.23338"
+       id="text3030-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3032-1"
+         x="456.11841"
+         y="221.23338"
+         style="fill:#ffffff">Economie</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="391.54697"
+       y="262.66199"
+       id="text3058-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3060-4"
+         x="391.54697"
+         y="262.66199"
+         style="font-size:25px;fill:#ffffff">Adaptation aux besoins</tspan><tspan
+         sodipodi:role="line"
+         x="391.54697"
+         y="293.91199"
+         id="tspan3062-8"
+         style="font-size:25px;fill:#ffffff">Logiciels libres</tspan><tspan
+         sodipodi:role="line"
+         x="391.54697"
+         y="325.16199"
+         id="tspan3064-7"
+         style="font-size:25px;fill:#ffffff">Progiciélisation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="93.143105"
+       y="409.50818"
+       id="text3030-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3032-15"
+         x="93.143105"
+         y="409.50818"
+         style="fill:#ffffff">Autonomie</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="28.571688"
+       y="450.93677"
+       id="text3058-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3060-9"
+         x="28.571688"
+         y="450.93677"
+         style="font-size:25px;fill:#ffffff">Intervention limitée</tspan><tspan
+         sodipodi:role="line"
+         x="28.571688"
+         y="482.18677"
+         id="tspan3062-2"
+         style="font-size:25px;fill:#ffffff">Systèmes Low Voltage</tspan><tspan
+         sodipodi:role="line"
+         x="28.571688"
+         y="513.43677"
+         id="tspan3064-5"
+         style="font-size:25px;fill:#ffffff">Processus automatiques</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="92.923462"
+       y="602.9931"
+       id="text3030-9-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3032-15-0"
+         x="92.923462"
+         y="602.9931"
+         style="fill:#ffffff">Décision</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="28.352051"
+       y="644.42169"
+       id="text3058-4-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3060-9-4"
+         x="28.352051"
+         y="644.42169"
+         style="font-size:25px;fill:#ffffff">Tableaux de bord</tspan><tspan
+         sodipodi:role="line"
+         x="28.352051"
+         y="675.67169"
+         id="tspan3062-2-7"
+         style="font-size:25px;fill:#ffffff">Aide à la décision</tspan><tspan
+         sodipodi:role="line"
+         x="28.352051"
+         y="706.92169"
+         style="font-size:25px;fill:#ffffff"
+         id="tspan3319">Reporting journalier</tspan><tspan
+         sodipodi:role="line"
+         x="28.352051"
+         y="738.17169"
+         id="tspan3064-5-4"
+         style="font-size:25px;fill:#ffffff" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="453.92349"
+       y="408.70737"
+       id="text3030-9-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3032-15-8"
+         x="453.92349"
+         y="408.70737"
+         style="fill:#ffffff">Tracabilité</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="390.09406"
+       y="448.50964"
+       id="text3058-4-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3060-9-7"
+         x="390.09406"
+         y="448.50964"
+         style="font-size:25px;fill:#ffffff">Historique</tspan><tspan
+         sodipodi:role="line"
+         x="390.09406"
+         y="479.75964"
+         id="tspan3062-2-1"
+         style="font-size:25px;fill:#ffffff">Systèmes Low Voltage</tspan><tspan
+         sodipodi:role="line"
+         x="390.09406"
+         y="511.00964"
+         id="tspan3064-5-3"
+         style="font-size:25px;fill:#ffffff">Processus automatiques</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="453.92352"
+       y="604.85974"
+       id="text3030-9-8-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3032-15-8-8"
+         x="453.92352"
+         y="604.85974"
+         style="fill:#ffffff">Sécurité</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="390.09406"
+       y="644.66199"
+       id="text3058-4-3-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="390.09406"
+         y="644.66199"
+         id="tspan3062-2-1-1"
+         style="font-size:25px;fill:#ffffff">Serveurs protégés</tspan><tspan
+         sodipodi:role="line"
+         x="390.09406"
+         y="675.91199"
+         id="tspan3064-5-3-0"
+         style="font-size:25px;fill:#ffffff">Systèmes autonomes</tspan><tspan
+         sodipodi:role="line"
+         x="390.09406"
+         y="707.16199"
+         style="font-size:25px;fill:#ffffff"
+         id="tspan3317" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1.925355"
+       y="1024.078"
+       id="text3295"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3297"
+         x="1.925355"
+         y="1024.078"
+         style="font-size:18px;text-align:start;text-anchor:start">TEAM H4413, Villeurbanne, France - +33647819078 - clement.geiger@gmail.com</tspan><tspan
+         sodipodi:role="line"
+         x="1.925355"
+         y="1046.578"
+         style="font-size:18px;font-style:italic;text-align:start;text-anchor:start"
+         id="tspan3301">                                                                              reproduction interdite (c) - 2011</tspan><tspan
+         sodipodi:role="line"
+         x="1.925355"
+         y="1069.078"
+         id="tspan3299" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3303"
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3305"><rect
+           id="rect3307"
+           width="695.99512"
+           height="114.14724"
+           x="26.263966"
+           y="63.42284"
+           style="font-size:30px" /></flowRegion><flowPara
+         id="flowPara3309" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="44.446712"
+       y="107.86955"
+       id="text3311"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3313"
+         x="44.446712"
+         y="107.86955"
+         style="font-size:30px">Pour résumer, retrouvons les points forts </tspan><tspan
+         sodipodi:role="line"
+         x="44.446712"
+         y="145.36955"
+         style="font-size:30px"
+         id="tspan3315">de notre solution de Global Monitoring </tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3321"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3323"><rect
+           id="rect3325"
+           width="691.95447"
+           height="249.50768"
+           x="33.335033"
+           y="744.26569"
+           style="font-size:20px" /></flowRegion><flowPara
+         id="flowPara3327"
+         style="font-size:19px;font-style:italic;text-align:justify;text-anchor:start;-inkscape-font-specification:Sans Italic">Le système de Global Monitoring sera paramétrable et accompagnera les besoins de croissance de la COPEVUE. La TEAM H4413 suivra le déploiement de l'ensemble du système avec comme objectif satisfaire l'ensemble de vos besoins et en anticipant la croissance du système.   </flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3359"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3361"><rect
+           id="rect3363"
+           width="304.05591"
+           height="74.751289"
+           x="579.82758"
+           y="308.88992" /></flowRegion><flowPara
+         id="flowPara3365"></flowPara></flowRoot>  </g>
+</svg>

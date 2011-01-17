@@ -1,16 +1,73 @@
+%% mettre les images correctement
+
 \section{Présentation de la solution}
 
 \subsection{Architecture}
-Le schéma suivant donne l'architecture global du système :
+Le schéma suivant donne l'architecture globale du système :
 
 %inclure schéma global
+\begin{figure}[!h]
+\centering
+\includegraphics[width=1\textwidth]{\PIXPATH/reseau}
+\caption{Architecture globale du système}
+\end{figure}
 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=1\textwidth]{\PIXPATH/concep_generale}
+\caption{Conception générale du système}
+\end{figure}
+
+\FloatBarrier
+Le système se décompose entre 3 parties : les sites, le serveur et les 
+interfaces clients.
+
+Les sites sont équipés d'une carte embarquée(JN 5148), de modules bluetooth pour 
+une interaction locale et de modules GSM pour la communication à distance. Les 
+capteurs sont connectés par radio à la carte embarquée du site. Le système
+embarqué est en veille jusqu'à un évènement configuré.
+
+Les serveurs sont basés dans le cloud. Il s'agit d'une technologie émergeante
+consistant à stocker les données sur plusieurs serveurs en en faisant plusieurs
+copies. De plus, le fournisseur permet de payer en fonction de la consommation : 
+cela permet le développement progressif de l'implémentation du système en 
+minimisant les coûts.
+Les serveurs utilisent Linux.
+
+Les interfaces clients sont des sites internet (ERP web) disponibles sur 
+plusieurs types de plateforme (ordinateur, PDA, smartphone, etc...). Elles sont 
+simples et orientées utilisateur, c'est-à-dire prévues pour être utilisées 
+facilement par des personnes non initiées à l'informatique.
+A ces interfaces se greffent des interfaces de maintenance disponibles
+localement sur les sites. 
 
 \subsection{Fonctionnement général}
 
+Toute la partie monitoring est automatisée. 
+
+Le système est réveillé lorsqu'un évènement pré-configuré arrive. Ces 
+évènements peuvent être une requête distante ou un évènement planifié
+périodique ou non. Le système embarqué peut être réveillé par les capteurs 
+lorsque certains niveaux sont atteints dans les cuves.
+
+Le système embarqué transmet alors les données au terminal ayant envoyé une
+requête.
+
+L'uilisateur peut consulter les données à partir de son client ERP.
 
 
 \subsection{Apports de la solution proposée}
 Le tableau suivant reprend les améliorations apportées par le nouveau système :
 
-%inclure tableau bilan.ods
+\begin{figure}[!h]
+\centering
+\includegraphics[width=1\textwidth]{\PIXPATH/amelioration}
+\caption{Améliorations}
+\end{figure}
+
+Facilité d'évolution avec l'utilisation d'un ERP.
+Aucun coût de licence en utilisant Linux et OpenERP.
+
+Des outils d'aide à la décision utilisables via l'ERP et les modules de Business 
+Intelligence (JasperSoft) vont permettre une optimisation importante des coûts.
+\FloatBarrier

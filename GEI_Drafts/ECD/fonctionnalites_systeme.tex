@@ -21,8 +21,12 @@
 	Pour démarrer les station il faut réaliser tout d'abord le démarrage du serveur central
 	\begin{enumerate}
 	\item Démarrer les applications des systèmes embarqués des stations.
+<<<<<<< HEAD
 	\item Lorsque la station se connecte sur le réseau afin de récupérer sa configuration, une commande est envoyé 
 	depuis le serveur central ou client mobile avec les paramètres( nombre de capteurs, configuration de seuils, mise à jour du code, etc.).\\\\
+=======
+	\item Lorsque la station se connecte sur le réseau afin de récupérer sa configuration, une commande est envoyé depuis le serveur central ou client mobile avec les paramètres( nombre de capteurs, configuration de seuils, mise à jour du code, etc.).\\\\
+>>>>>>> 9f609af4ee2ba3a7c5cd1bf267a8fa7e151a2a00
 	\end{enumerate}
 
 \item [Communication]\hfill\\
@@ -31,21 +35,31 @@
 	\item messages de commandes \\
 		\begin{itemize}
 		\item Un utilisateur peut demander les données de la station sur son smartphone.\\
+<<<<<<< HEAD
 		\item Le serveur central peut aussi envoyer message vers la station avec des commandes 
 		de configuration, de maintenance ou des requêtes destinées aux capteurs.\\
+=======
+		\item Le serveur central peut aussi envoyer message vers la station avec des commandes de configuration, de maintenance ou des requêtes destinées aux capteurs.\\
+>>>>>>> 9f609af4ee2ba3a7c5cd1bf267a8fa7e151a2a00
 		\end{itemize}
 	
 	\item messages de données (informations sur les capteurs)\\
 		\begin{itemize}
+<<<<<<< HEAD
 		\item Les envois de données sont effectués à intervalles de temps régulier paramètres selon les
 		 besoins de l'utilisateur(un minute chaque 10 heures), le nombre de tentatives d'envoi(1 à 4).\\
 		\item Le système embarqué lit les valeur des différents capteurs, ces données sont stockés avant 
 		de être envoyés vers les serveur central.\\
+=======
+		\item Les envois de données sont effectués à intervalles de temps régulier paramètres selon les besoins de l'utilisateur(un minute chaque 10 heures), le nombre de tentatives d'envoi(1 à 4).\\
+		\item Le système embarqué lit les valeur des différents capteurs, ces données sont stockés avant de être envoyés vers les serveur central.\\
+>>>>>>> 9f609af4ee2ba3a7c5cd1bf267a8fa7e151a2a00
 		\item Le système embarqué les compare avec les seuils paramètres pour déterminer si un des seuils à été franchi. \\
 		\end{itemize}
 
 	\item messages d'erreur/d'alerte\\
 		\begin{itemize}
+<<<<<<< HEAD
 		\item En cas de seuils dépassé, les données son archivés dans un fichier local pour après  transmettre
 		 un message d'alerte avec ces données, au serveur central ou client mobile par le réseau GSM. \\
 		\item Si pendant un envoi de message li y'a un échec en la communication, la station recommence son envoi
@@ -53,6 +67,11 @@
 		  s'ajoute au 1ère message.\\
 		\item Si après avoir fait 4 tentes on n'arrive pas à faire la transmission de message vers le serveur central, on
 		 attend le prochaine créneau d'envoi.\\
+=======
+		\item En cas de seuils dépassé, les données son archivés dans un fichier local pour après  transmettre un message d'alerte avec ces données, au serveur central ou client mobile par le réseau GSM. \\
+		\item Si pendant un envoi de message li y'a un échec en la communication, la station recommence son envoi un certain nombre de fois(1 à 4), et lorsque cela fonctionne un message'erreur pour perte de communication s'ajoute au 1ère message.\\
+		\item Si après avoir fait 4 tentes on n'arrive pas à faire la transmission de message vers le serveur central, on attend le prochaine créneau d'envoi.\\
+>>>>>>> 9f609af4ee2ba3a7c5cd1bf267a8fa7e151a2a00
 		\item A Chaque envoi vers le serveur central ou client mobile est joint un message avec le niveau de batterie et rapports d'erreur.\\
 		\end{itemize}\hfill\\
 	\end{enumerate}
@@ -69,18 +88,27 @@
 	\\ Les message d'erreur ou d'alerte sont envoyés avec un identifiant de message , identifient de station et un type (erreur ou alerte), en cas  :
 		\begin{itemize}
 		\item Un bug, Problème de cohérence de valeurs.\\
+<<<<<<< HEAD
 		\item Si le système embarqué est perturbé et se trouve instable pour un événement extérieur(problèmes climatiques, 
 		impulsion magnétique), il fait un redémarrage, puis quand il est stable, il envoi au serveur central un message indiquant son redémarrage.  \\
+=======
+		\item Si le système embarqué est perturbé et se trouve instable pour un événement extérieur(problèmes climatiques, impulsion magnétique), il fait un redémarrage, puis quand il est stable, il envoi au serveur central un message indiquant son redémarrage.  \\
+>>>>>>> 9f609af4ee2ba3a7c5cd1bf267a8fa7e151a2a00
 		\item Si c'est la fin de maintenance, etc.\\\\
 	\end{itemize}	\\
 
 \item [Maintenance]\hfill\\
 	\begin{itemize}
 	\item Les demandes d'intervention ont un niveau d'urgence, ce qui permet d'intervenir au plus vite sur une station en situation critique.\\
+<<<<<<< HEAD
 	\item Si la maintenance est à distance, la station archive les commandes reçues et les actions effectues. 
 	L'utilisateur peut ajouter les causes et résultats obtenu lors de la maintenance.\\
 	\item Si la maintenance est physique, l'intervenant peut signaler depuis son smartphone, l'état du système 
 	à la fin de l'intervention ainsi que le traitement effectué. \\
+=======
+	\item Si la maintenance est à distance, la station archive les commandes reçues et les actions effectues. L'utilisateur peut ajouter les causes et résultats obtenu lors de la maintenance.\\
+	\item Si la maintenance est physique, l'intervenant peut signaler depuis son smartphone, l'état du système à la fin de l'intervention ainsi que le traitement effectué. \\
+>>>>>>> 9f609af4ee2ba3a7c5cd1bf267a8fa7e151a2a00
 	\item Le serveur de la station archive ces informations et les signale au serveur central ou client mobile.\\
 	\end{itemize}
 \end{enumerate}	
