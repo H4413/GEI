@@ -48,6 +48,7 @@ besoins des utilisateurs et des contraintes du projet.
 Analyser ensuite la valeur de chaque fonction et les hiérarchiser. Il est
 conseillé d'utiliser une grille d'évaluation (en notant la difficulté 
 d'implémentation ainsi que la nécessité).
+Votre cheminement d'analyse de valeur doit être placé en annexe.
 
 Rédiger le cahier des charges
 -----------------------------
@@ -55,6 +56,9 @@ Rédiger le cahier des charges
 La rédaction se fait suivant le `Plan type`_. 
 Une fois la rédaction terminée, il faut faire valider et approuver par la
 personne compétente.
+
+Il est très important de rédiger une API fixe (à mettre en annexe) avec le
+reste du système.
 
 Un cahier des charges est évolutif jusqu'à ce que les spécifications soient
 figées.
@@ -102,3 +106,5 @@ Cahier des charges:
 		- proposition d'orientations
 		- choix d'une solution, justification
 		- appréciation de la solution retenue
+    - Annexe API avec le reste du système
+    - Annexe Analyse de la valeur
