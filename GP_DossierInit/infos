@@ -5,7 +5,7 @@ AUTHOR="Clément Geiger"
 
 OBJECT="Initialisation du projet ingénierie"
 
-CURRVER="1"
+CURRVER="2"
 
 FILE="gei_dossier_init"
 
