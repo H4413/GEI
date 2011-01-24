@@ -102,18 +102,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="-81.415044"
-     inkscape:cy="582.24713"
+     inkscape:cx="147.15638"
+     inkscape:cy="525.10427"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1680"
-     inkscape:window-height="973"
+     inkscape:window-width="1278"
+     inkscape:window-height="998"
      inkscape:window-x="0"
-     inkscape:window-y="24"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -326,18 +326,18 @@
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="465.8623"
+       x="459.71115"
        y="20.419338"
        id="text6565"
        sodipodi:linespacing="125%"
        transform="scale(0.97543132,1.0251875)"><tspan
          sodipodi:role="line"
-         x="465.8623"
+         x="459.71115"
          y="20.419338"
          style="font-size:20px;font-weight:normal;text-align:end;text-anchor:end;fill:#f4eed7;-inkscape-font-specification:Sans"
          id="tspan3067">TEAM H4413 &gt; Solution de Global Monitoring</tspan><tspan
          sodipodi:role="line"
-         x="465.8623"
+         x="459.71115"
          y="45.419338"
          id="tspan6579"
          style="font-size:20px;font-weight:normal;text-align:end;text-anchor:end;-inkscape-font-specification:Sans" /></text>
@@ -376,15 +376,15 @@
          id="flowPara3077" /></flowRoot>    <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="4.4642854"
+       x="32.464287"
        y="40.219326"
        id="text3079"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3081"
-         x="4.4642854"
+         x="32.464287"
          y="40.219326"
-         style="font-size:20px;font-style:italic;-inkscape-font-specification:Sans Italic;fill:#c8b7b7">Performance comes standard</tspan></text>
+         style="font-size:20px;font-style:italic;fill:#c8b7b7;-inkscape-font-specification:Sans Italic">Performance becomes standard</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -396,5 +396,38 @@
          id="tspan3116"
          x="-189.90868"
          y="303.83914" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3768"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:14px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3770"><rect
+           id="rect3772"
+           width="204.28572"
+           height="152.85715"
+           x="531.42859"
+           y="880.93359"
+           style="font-size:14px" /></flowRegion><flowPara
+         id="flowPara3774"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3776"
+       style="fill:#000000;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:13px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3778"><rect
+           id="rect3780"
+           width="181.42857"
+           height="138.57143"
+           x="531.42859"
+           y="895.2193"
+           style="font-size:13px;fill:#000000" /></flowRegion><flowPara
+         id="flowPara3782"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="618.57141"
+       y="970.93359"
+       id="text3784"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3786"
+         x="618.57141"
+         y="970.93359" /></text>
   </g>
 </svg>

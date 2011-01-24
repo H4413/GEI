@@ -1,0 +1,154 @@
+\section{Présentation du problème}
+
+
+
+Le système de monitoring des zones peu habitées est destiné à être utilisé par plusieurs types 
+d'utilisateurs. Pour cette raison, les interfaces de notre application doivent être adaptées à 
+répondre à l'ensemble des critères exigés par chacun de ses utilisateurs.
+Ils doivent être capables de répondre aux besoins principaux, tels que: monitoire et configurer 
+un ou plusieurs stations distants.\\
+
+Le système de monitoring des zones peu habitées est destiné à être utilisé par plusieurs types d'utilisateurs. Pour cette raison, les interfaces de notre application doivent être adaptées à répondre à l'ensemble des critères exigés par chacun de ses utilisateurs.
+Ils doivent être capables de répondre aux besoins principaux, tels que: monitoire et configurer un ou plusieurs stations distants.\\
+
+
+Ce cahier des charges va mettre sur place les principales besoins à satisfaire pour une application 
+de surveillance à distance qu'on pourra accéder depuis un PDA, on y retrouvera les exigences 
+fonctionnelles qui devront être couvertes et les contraintes à respecter.
+
+
+\subsection{Formulation des besoins généraux}
+
+
+On doit pouvoir communiquer avec tous les intervenants du système qui s'occupent actuellement de 
+la surveillance et maintenance dans le projet. Un système efficace et simple doit être mis en place 
+pour leur transmettre des demandes d'interventions et récupérer les rapports d'interventions.\\
+
+On doit pouvoir communiquer avec tous les intervenants du système qui s'occupent actuellement de la surveillance et maintenance dans le projet. Un système efficace et simple doit être mis en place pour leur transmettre des demandes d'interventions et récupérer les rapports d'interventions.\\
+
+
+Le système va utiliser des technologies qu'il ne maîtrise pas totalement (GPS, GPRS). Il faut donc 
+adapter le système aux différentes situations qui peuvent survenir.\\
+
+Le système doit être générique et adaptable à d’autres situations. Pour cela, on veillera que les 
+messages en provenance des modules, des capteurs, etc.… doivent être paramétrables pour définir 
+leur nature et mettre en place le système de surveillance.\\
+
+L'IHM doit prendre en compte tous les types d'utilisateurs, en général des non informaticiens. 
+Nous définirons les interfaces du système en fonction de ses utilisateurs : 
+acteurs de la télésurveillance, camionneurs, propriétaire.
+ 
+
+
+<<<<<<< HEAD
+\subsubsection{Synthèse des besoins}
+L'application permettra de gérer le parc de station de manière simple et complète depuis un PDA. 
+L'IHM devra être orientée vers des utilisateurs dépourvus de fortes connaissances dan le domaine informatique.\\
+
+\subsubsection{Synthèse des besoins}
+L'application permettra de gérer le parc de station de manière simple et complète depuis un PDA. L'IHM devra être orientée vers des utilisateurs dépourvus de fortes connaissances dan le domaine informatique.\\
+
+
+\begin{itemize}
+\item   visualiser une région \\
+\item	visualiser une station particulière \\
+\item	paramétrer une station en modifiant le fichier de configuration \\
+\item	accéder à l'application de demande d'intervention \\
+\item	envoyer des données à l'application gérant l'archivage\\ 
+\item	accéder aux données archivées d'une station sur la base de données\\
+\end{itemize}
+
+
+\subsubsection{Description des Processus}
+
+\begin{enumerate}
+\item L'utilisateur lance l'application de gestion depuis son client mobile type PDA.\\
+\item L'utilisateur s'authentifie en fournissant son identifiant et son mot de passe.\\
+
+\item L'utilisateur sélectionne l'un des modes de recherches qui lui convient afin de sélectionner
+ la région (ou la station) souhaité :\\
+
+\item L'utilisateur sélectionne l'un des modes de recherches qui lui convient afin de sélectionner la région (ou la station) souhaité :\\
+
+	\begin{itemize}
+	\item Champs de recherche rapide avec sélection éventuelle des critères de recherche.\\
+
+	\item Recherche par carte.\\
+
+	\item Recherche par géo-localisation.\\
+	
+	\end{itemize}
+
+
+	\item À tout moment une fois la station sélectionné, l'utilisateur peut faire une demande 
+	d'itinéraire(carte routière avec suivi GPS).\\
+
+	\item À tout moment une fois la station sélectionné, l'utilisateur peut faire une demande d'itinéraire(carte routière avec suivi GPS).\\
+
+
+	\item L'utilisateur connecté effectue les opérations dont il a besoin :\\
+	
+	\begin{itemize}
+	\item Consultation des informations émises par la station. \\
+	\item Il peut faire une demande de mise à jour des données de la station.\\
+	\item Emission de rapports d'interventions.\\
+
+    \item À tout moment, l’utilisateur peut accéder à l’ensemble des demandes d’interventions 
+    qui lui sont confiées
+
+    \item À tout moment, l’utilisateur peut accéder à l’ensemble des demandes d’interventions qui lui sont confiées
+
+	\end{itemize}
+\end{enumerate}
+
+
+\subsubsection{Description des Fonctionnalités}
+
+\begin{description}
+\item [Connexion sécurisée:] \hfill\\
+	\begin{itemize}
+	\item L'utilisateur doit se connecter avant de pouvoir utiliser l'application\\
+	\item Il doit mettre son identifiant et son code secret.\\
+	\item La confidentialité du code secret doit être assurée de bout en bout(de son PDA au serveur central).\\
+	\item Les tentatives de connexions avec un code secret erroné doivent être limitées(à 3 par exemple).
+	\end{itemize}
+
+\item [Déconnexion:]\hfill\\
+	\begin{itemize}
+	\item L'utilisateur doit pouvoir se déconnecter après avoir utilisé l'application.\\
+
+	\item L'utilisateur doit être déconnecté automatiquement s'il quitte l'application 
+	brutalement suite à un dysfonctionnement.\\
+
+	\item L'utilisateur doit être déconnecté automatiquement s'il quitte l'application brutalement suite à un dysfonctionnement.\\
+
+	\end{itemize}
+
+\item [Recherche de sites (textuelle, cartographique):]\\
+L'utilisateur doit pouvoir faire la recherche d'une région par son nom ou en utilisant le cartographie.\\
+
+\item  [Recherche de stations (textuelle, cartographique):]\\ 
+L'utilisateur doit pouvoir faire la recherche d'une station par son id ou en utilisant le cartographie.\\
+
+\item [Vue cartographique:]\\
+L'application doit intégrer une vue cartographique 2D en temps réel, qui facilite la surveillance.\\
+
+\item [Localisation GPS:]\\
+L'application doit avoir une fonction de localisation de la station par GPS.\\
+
+\item [Consultation d'informations de la station:]\\
+A travers de l'application l'utilisateur doit pouvoir accès à tous les informations des stations 
+qui sont dans a base de données.\\
+
+\item [Émission de rapports:]\\
+L'utilisateur doit pouvoir émettre depuis son PDA une rapport lors d'une maintenance sur la station. 
+
+\item [Consultation des demandes d’interventions personnelles:]\\
+L'utilisateur peut en tout moment savoir s'il doit intervenir sur une station déterminée.\\
+
+\end{description}
+
+\subsection{Limites}
+
+Ce cahier des charges se limitera à présenter les spécifications d'une l'application
+pour la surveillance et maintenance de notre système via un PDA.

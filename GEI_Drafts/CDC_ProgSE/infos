@@ -1,9 +1,9 @@
 # Insert infos here:
-TITLE="Cahier des charges -\
+TITLE="DRAFT - Cahier des charges -\
  Programmation du système embarqué"
-OBJECT="Cahier des charges relatif à la programmatioin du système embarqué"
+OBJECT="DRAFT - Cahier des charges relatif à la programmatioin du système embarqué"
 AUTHOR="Raphaël Lizé"
-CURRVER="0"
+CURRVER="DRAFT"
 FILE="CdC_ProgSE"
 
 LANG="french"
