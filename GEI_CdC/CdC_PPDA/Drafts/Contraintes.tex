@@ -1,0 +1,35 @@
+%!TEX encoding = UTF-8 Unicode
+\documentclass [a4paper] {report}
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage{longtable}
+\begin {document}
+\section{Contraintes}
+	
+\begin{description}		
+\item [Intégration de l'existant]\hfill\\
+L'application doit permettre aux différents utilisateurs de récupérer des rapports, des messages clairs,et de transmettre en tout moment et de manière fiable des demandes d'intervention pour la maintenance.\\
+
+\item [Ergonomie]\hfill\\
+Les interfaces de contrôle du système seront intégralement graphiques, puisque ce sont des non informaticiens qui vont devoir utiliser le système.\\
+
+\item [Traçabilité]\hfill\\
+ L'application doit pouvoir transmettre tous les messages reçus à l'archivage dans les bases de données.\\
+
+\item [Évolutivité]\hfill\\
+L'application doit être configurable pour ameliorer la performance et fonctionnalites(Le nombre de capteurs raccordés à une station, Le nombre de stations dans un réseau).
+
+\end{description}
+
+	
+\subsection{Complexité}
+	
+L'application pour le système ne présente pas de grandes difficultés, le but est de veiller à ce que l'IHM soit adaptée aux utilisateurs.
+
+La vraie difficulté viendra de l'intégration au sein de la même interface des modules de gestion de la maintenance et d'exploitation statistique des données.
+
+\end{document}
