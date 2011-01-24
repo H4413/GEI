@@ -1,9 +1,9 @@
 # Insert infos here:
-TITLE="Plan d'Assurance Qualité du Projet (PAQP)"
-OBJECT="Ce document assure les démarches qualité pour l'ensemble du projet"
+TITLE="Draft Plan d'Assurance Qualité du Projet (PAQP)"
+OBJECT="Ce document précise les démarches qualité pour l'ensemble du projet"
 AUTHOR="H4413"
 
-FILE="paq"
+FILE="RQ_Draft_PAQP"
 
 LANG="french"
 # For hyphenation and other language dependant stuff
