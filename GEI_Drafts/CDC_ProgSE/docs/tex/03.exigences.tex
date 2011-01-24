@@ -1,3 +1,33 @@
 % Exigences fonctionnelles
 
 \section{Exigences fonctionnelles}
+
+    \begin{enumerate}
+
+    % Mise en forme liste:
+    \renewcommand{\labelenumi}
+            {FO n\degres \arabic{enumi}~:}
+    \renewcommand{\labelenumii}
+            {FO n\degres \arabic{enumi}.\arabic{enumii}~:}
+    
+    % Texte:
+        \item Monitoring à distance
+            \begin{enumerate}
+                \item Consultation de l'état de charge des capteurs;
+                \item Consultation des valeurs des capteurs.
+            \end{enumerate}
+
+        \item Maintenance à distance
+        
+        \item Maintenance sur site
+
+        \item Traitements sur station
+            \begin{enumerate}
+                \item Interrogation des capteurs;
+                \item Traitement des données capteur;
+                \item Traitement des données GPRS;
+                \item Traitement des données GPS;
+                \item Traitement des données BlueTooth;
+                \item Serveur web de configuration.
+            \end{enumerate}
+    \end{enumerate}
