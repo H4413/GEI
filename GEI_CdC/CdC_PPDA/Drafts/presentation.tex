@@ -1,24 +1,17 @@
 
-
-%!TEX encoding = UTF-8 Unicode
-\documentclass [a4paper] {article}
-\usepackage[utf8]{inputenc}
-\usepackage[francais]{babel}
-\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
-\usepackage{hyperref}
-\usepackage{eurosym}
-\usepackage{graphicx}
-\usepackage{longtable}
-\usepackage{enumerate}
-\begin {document}
 \section{Présentation du problème}
 
 
+<<<<<<< HEAD
 Le système de monitoring des zones peu habitées est destiné à être utilisé par plusieurs types 
 d'utilisateurs. Pour cette raison, les interfaces de notre application doivent être adaptées à 
 répondre à l'ensemble des critères exigés par chacun de ses utilisateurs.
 Ils doivent être capables de répondre aux besoins principaux, tels que: monitoire et configurer 
 un ou plusieurs stations distants.\\
+=======
+Le système de monitoring des zones peu habitées est destiné à être utilisé par plusieurs types d'utilisateurs. Pour cette raison, les interfaces de notre application doivent être adaptées à répondre à l'ensemble des critères exigés par chacun de ses utilisateurs.
+Ils doivent être capables de répondre aux besoins principaux, tels que: monitoire et configurer un ou plusieurs stations distants.\\
+>>>>>>> a38885d9939b4d4af6a46931c5c713c90ea0d461
 
 Ce cahier des charges va mettre sur place les principales besoins à satisfaire pour une application 
 de surveillance à distance qu'on pourra accéder depuis un PDA, on y retrouvera les exigences 
@@ -28,9 +21,13 @@ fonctionnelles qui devront être couvertes et les contraintes à respecter.
 \subsection{Formulation des besoins généraux}
 
 
+<<<<<<< HEAD
 On doit pouvoir communiquer avec tous les intervenants du système qui s'occupent actuellement de 
 la surveillance et maintenance dans le projet. Un système efficace et simple doit être mis en place 
 pour leur transmettre des demandes d'interventions et récupérer les rapports d'interventions.\\
+=======
+On doit pouvoir communiquer avec tous les intervenants du système qui s'occupent actuellement de la surveillance et maintenance dans le projet. Un système efficace et simple doit être mis en place pour leur transmettre des demandes d'interventions et récupérer les rapports d'interventions.\\
+>>>>>>> a38885d9939b4d4af6a46931c5c713c90ea0d461
 
 Le système va utiliser des technologies qu'il ne maîtrise pas totalement (GPS, GPRS). Il faut donc 
 adapter le système aux différentes situations qui peuvent survenir.\\
@@ -45,17 +42,22 @@ acteurs de la télésurveillance, camionneurs, propriétaire.
  
 
 
+<<<<<<< HEAD
 \subsubsection{Synthèse des besoins}
 L'application permettra de gérer le parc de station de manière simple et complète depuis un PDA. 
 L'IHM devra être orientée vers des utilisateurs dépourvus de fortes connaissances dan le domaine informatique.\\
+=======
+\subsubsection{Synthèse des besoins}
+L'application permettra de gérer le parc de station de manière simple et complète depuis un PDA. L'IHM devra être orientée vers des utilisateurs dépourvus de fortes connaissances dan le domaine informatique.\\
+>>>>>>> a38885d9939b4d4af6a46931c5c713c90ea0d461
 
 \begin{itemize}
-\item   visualiser une région \\
-\item	visualiser une station particulière \\
-\item	paramétrer une station en modifiant le fichier de configuration \\
-\item	accéder à l'application de demande d'intervention \\
-\item	envoyer des données à l'application gérant l'archivage\\ 
-\item	accéder aux données archivées d'une station sur la base de données\\
+\item   visualiser une région \\
+\item	visualiser une station particulière \\
+\item	paramétrer une station en modifiant le fichier de configuration \\
+\item	accéder à l'application de demande d'intervention \\
+\item	envoyer des données à l'application gérant l'archivage\\ 
+\item	accéder aux données archivées d'une station sur la base de données\\
 \end{itemize}
 
 
@@ -64,28 +66,40 @@ L'IHM devra être orientée vers des utilisateurs dépourvus de fortes connai
 \begin{enumerate}
 \item L'utilisateur lance l'application de gestion depuis son client mobile type PDA.\\
 \item L'utilisateur s'authentifie en fournissant son identifiant et son mot de passe.\\
+<<<<<<< HEAD
 \item L'utilisateur sélectionne l'un des modes de recherches qui lui convient afin de sélectionner
  la région (ou la station) souhaité :\\
+=======
+\item L'utilisateur sélectionne l'un des modes de recherches qui lui convient afin de sélectionner la région (ou la station) souhaité :\\
+>>>>>>> a38885d9939b4d4af6a46931c5c713c90ea0d461
 	\begin{itemize}
-	\item Champs de recherche rapide avec sélection éventuelle des critères de recherche.\\
+	\item Champs de recherche rapide avec sélection éventuelle des critères de recherche.\\
 
 	\item Recherche par carte.\\
 
-	\item Recherche par géo-localisation.\\
+	\item Recherche par géo-localisation.\\
 	
 	\end{itemize}
 
+<<<<<<< HEAD
 	\item À tout moment une fois la station sélectionné, l'utilisateur peut faire une demande 
 	d'itinéraire(carte routière avec suivi GPS).\\
+=======
+	\item À tout moment une fois la station sélectionné, l'utilisateur peut faire une demande d'itinéraire(carte routière avec suivi GPS).\\
+>>>>>>> a38885d9939b4d4af6a46931c5c713c90ea0d461
 
-	\item L'utilisateur connecté effectue les opérations dont il a besoin :\\
+	\item L'utilisateur connecté effectue les opérations dont il a besoin :\\
 	
 	\begin{itemize}
-	\item Consultation des informations émises par la station. \\
-	\item Il peut faire une demande de mise à jour des données de la station.\\
+	\item Consultation des informations émises par la station. \\
+	\item Il peut faire une demande de mise à jour des données de la station.\\
 	\item Emission de rapports d'interventions.\\
+<<<<<<< HEAD
     \item À tout moment, l’utilisateur peut accéder à l’ensemble des demandes d’interventions 
     qui lui sont confiées
+=======
+    \item À tout moment, l’utilisateur peut accéder à l’ensemble des demandes d’interventions qui lui sont confiées
+>>>>>>> a38885d9939b4d4af6a46931c5c713c90ea0d461
 	\end{itemize}
 \end{enumerate}
 
@@ -93,7 +107,7 @@ L'IHM devra être orientée vers des utilisateurs dépourvus de fortes connai
 \subsubsection{Description des Fonctionnalités}
 
 \begin{description}
-\item [Connexion sécurisée:] \hfill\\
+\item [Connexion sécurisée:] \hfill\\
 	\begin{itemize}
 	\item L'utilisateur doit se connecter avant de pouvoir utiliser l'application\\
 	\item Il doit mettre son identifiant et son code secret.\\
@@ -101,11 +115,15 @@ L'IHM devra être orientée vers des utilisateurs dépourvus de fortes connai
 	\item Les tentatives de connexions avec un code secret erroné doivent être limitées(à 3 par exemple).
 	\end{itemize}
 
-\item [Déconnexion:]\hfill\\
+\item [Déconnexion:]\hfill\\
 	\begin{itemize}
 	\item L'utilisateur doit pouvoir se déconnecter après avoir utilisé l'application.\\
+<<<<<<< HEAD
 	\item L'utilisateur doit être déconnecté automatiquement s'il quitte l'application 
 	brutalement suite à un dysfonctionnement.\\
+=======
+	\item L'utilisateur doit être déconnecté automatiquement s'il quitte l'application brutalement suite à un dysfonctionnement.\\
+>>>>>>> a38885d9939b4d4af6a46931c5c713c90ea0d461
 	\end{itemize}
 
 \item [Recherche de sites (textuelle, cartographique):]\\
@@ -124,7 +142,7 @@ L'application doit avoir une fonction de localisation de la station par GPS.\\
 A travers de l'application l'utilisateur doit pouvoir accès à tous les informations des stations 
 qui sont dans a base de données.\\
 
-\item [Émission de rapports:]\\
+\item [Émission de rapports:]\\
 L'utilisateur doit pouvoir émettre depuis son PDA une rapport lors d'une maintenance sur la station. 
 
 \item [Consultation des demandes d’interventions personnelles:]\\
@@ -136,5 +154,3 @@ L'utilisateur peut en tout moment savoir s'il doit intervenir sur une station d�
 
 Ce cahier des charges se limitera à présenter les spécifications d'une l'application
 pour la surveillance et maintenance de notre système via un PDA.
-
-\end{document}
