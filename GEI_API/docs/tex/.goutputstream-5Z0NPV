@@ -1,0 +1,8 @@
+\section{Structure des données utilisées} 
+
+Nous avons créé différentes structures de données qui seront transmises par les 
+composants du système et qui contient toutes les informations dont nous avons 
+besoin. \\
+
+\begin{itemize}
+\item \textbf{SensorData} 
