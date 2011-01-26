@@ -127,7 +127,7 @@ echo "
 \newcommand\Object{$OBJECT}
 \newcommand\Version{$CURRVER}
 \renewcommand{\labelitemi}{$\diamond$}
-\renewcommand{\labelenumi}{(\alph{enumi})}
+\renewcommand{\labelenumii}{\alph{enumii}}
 " >> ${FILE}
 
 # Begining of document
