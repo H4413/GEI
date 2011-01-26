@@ -2,16 +2,25 @@
 \section{Présentation du problème}
 
 
-
 Le système de monitoring des zones peu habitées est destiné à être utilisé par plusieurs types 
 d'utilisateurs. Pour cette raison, les interfaces de notre application doivent être adaptées à 
 répondre à l'ensemble des critères exigés par chacun de ses utilisateurs.
 Ils doivent être capables de répondre aux besoins principaux, tels que: monitoire et configurer 
 un ou plusieurs stations distants.\\
 
+<<<<<<< HEAD
+=======
+Le système de monitoring des zones peu habitées est destiné à être utilisé
+par plusieurs types d'utilisateurs. Pour cette raison, les interfaces de
+notre application doivent être adaptées à répondre à l'ensemble des
+critères exigés par chacun de ses utilisateurs. Ils doivent être capables
+de répondre aux besoins principaux, tels que: monitoire et configurer un ou
+plusieurs stations distants.\\
+
+>>>>>>> dc33a5989d4595a0475c4f236d0cec1e78f7cbaf
 
 Ce cahier des charges va mettre sur place les principales besoins à satisfaire pour une application 
-de surveillance à distance qu'on pourra accéder depuis un PDA, on y retrouvera les exigences 
+de surveillance à distance qu'on pourra utiliser depuis un PDA ou smartphone, on y retrouvera les exigences 
 fonctionnelles qui devront être couvertes et les contraintes à respecter.
 
 
@@ -37,8 +46,11 @@ Nous définirons les interfaces du système en fonction de ses utilisateurs :
 acteurs de la télésurveillance, camionneurs, propriétaire, etc.
  
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> dc33a5989d4595a0475c4f236d0cec1e78f7cbaf
 \subsubsection{Synthèse des besoins}
 L'application permettra de gérer le parc de station de manière simple et complète depuis un PDA. 
 L'IHM devra être orientée vers des utilisateurs dépourvus de fortes connaissances dan le domaine informatique.\\
@@ -79,10 +91,9 @@ L'application permettra de gérer le parc de station de manière simple et compl
 
 
 	\item À tout moment une fois la station sélectionné, l'utilisateur peut faire une demande 
-	d'itinéraire(carte routière avec suivi GPS).\\
+	d'itinéraire (carte routière avec suivi GPS).\\
 
 	\item À tout moment une fois la station sélectionné, l'utilisateur peut faire une demande d'itinéraire(carte routière avec suivi GPS).\\
-
 
 	\item L'utilisateur connecté effectue les opérations dont il a besoin :\\
 	
@@ -103,15 +114,15 @@ L'application permettra de gérer le parc de station de manière simple et compl
 \subsubsection{Description des Fonctionnalités}
 
 \begin{description}
-\item [Connexion sécurisée:] \hfill\\
+\item [Connexion sécurisée :] \hfill\\
 	\begin{itemize}
 	\item L'utilisateur doit se connecter avant de pouvoir utiliser l'application\\
 	\item Il doit mettre son identifiant et son code secret.\\
-	\item La confidentialité du code secret doit être assurée de bout en bout(de son PDA au serveur central).\\
-	\item Les tentatives de connexions avec un code secret erroné doivent être limitées(à 3 par exemple).
+	\item La confidentialité du code secret doit être assurée de bout en bout (de son PDA au serveur central).\\
+	\item Les tentatives de connexions avec un code secret erroné doivent être limitées (à 3 par exemple).
 	\end{itemize}
 
-\item [Déconnexion:]\hfill\\
+\item [Déconnexion :]\hfill\\
 	\begin{itemize}
 	\item L'utilisateur doit pouvoir se déconnecter après avoir utilisé l'application.\\
 

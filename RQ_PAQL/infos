@@ -1,10 +1,9 @@
 # Insert infos here:
-TITLE="Cahier des charges -\
- Programmation du système embarqué"
-OBJECT="Cahier des charges relatif à la programmatioin du système embarqué"
-AUTHOR="Raphaël Lizé"
-CURRVER="1"
-FILE="CdC_ProgSE"
+TITLE="Ebauche PAQL"
+OBJECT="Sous Projet Système Embarqué"
+AUTHOR="H4413"
+CURRVER="0"
+FILE="document"
 
 LANG="french"
 # For hyphenation and other language dependant stuff

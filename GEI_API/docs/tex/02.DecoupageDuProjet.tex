@@ -1,11 +1,12 @@
 \section{Découpage du projet}
 
 \subsection{Vue d'ensemble du projet}
-Le schéma suivant résume l'architecture applicative choisi à concevoir:
+Le schéma suivant résume l'architecture applicative choisie à concevoir:
 
-\begin{center}
+\begin{figure}
+\centering
 \includegraphics[width=8cm]{\PIXPATH/concep_generale}
-\end{center}
+\end{figure}
 	
 \subsection{Découpage en sous-systèmes}
 
@@ -17,16 +18,21 @@ Le système peut alors être divisé en trois sous-systèmes principaux :
 \item Le service client (logiciel PDA/Smartphone) 
 \end {enumerate}
 
-Entre chaque sous-système, nous avons une interface de communication, une API, qui se charge de les relier.
-\begin{center}
+Entre chaque sous-système, nous avons une interface de communication, une API, 
+qui se charge de les relier.
+
+\begin{figure}
+\centering
 \includegraphics[width=8cm]{\PIXPATH/API}
-\end{center}
+\end{figure}
 
 \subsection{Les sous-systèmes}
-Nous allons décliner la composition de chacun des sous-ensembles ci-dessus afin de donner une meilleure granularité à la description.
+Nous allons décliner la composition de chacun des sous-ensembles ci-dessus afin 
+de donner une meilleure granularité à la description.
 
 \subsubsection{Système Embarqué}
 \begin{enumerate}
+
 \item Gestion des capteurs
 Configuration/maintenance
 Suivi des données
@@ -48,6 +54,7 @@ Alertes
 Configuration/maintenance
 Suivi des données des capteurs
 Rapports de fonctionnement
+
 \end{enumerate}
 
 
