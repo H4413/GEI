@@ -1,0 +1,42 @@
+\section{Méthodes/outils/techniques/règles/normes}
+
+\subsection{Outils}
+Utilisation d'une fiche de suivi d'avancement identique à celle de la 1ère 
+phase du projet.
+La documentation est au format Latex.
+Le développement se fait sous VIM et est versionné avec Git.
+Cf PAQP pour une description des outils.
+
+\subsection{Règles et normes}
+Les règles de développement sont celles définies par les best practices et 
+normes du langage utilisé pour le sous-projet.
+Le langage doit être unique pour le sous-projet.
+
+Le respect des API définies pour le projet est le premier critère à prendre en 
+compte.
+
+Pour un soucis de modularité, tout le code doit être découpé en modules pour
+chaque sous-tâche que doit réaliser le logiciel.
+
+Pour la maintenabilité :
+
+Toute fonction et toute classe créée doit être décrite suffisament dans le code 
+via la doc disponible dans le langage ou en commentaire si le langage ne le
+permet pas. 
+Tout algorithme doit être décrit et sa fonction doit être explicitement donnée.
+
+Portabilité :
+
+Le code produit doit être adapté à toutes les plateformes dans la mesure du 
+possible. Si ce n'est pas possible, le code devra être facilement modifiable 
+pour être adapté à une plateforme quelconque.
+
+Fiabilité :
+
+Enfin tout le code doit être testé. L'utilisation d'outils de 
+couverture de tests permettrait d'être sûr. 
+Des tests d'intégration doivent aussi être présents.
+
+\subsection{Autres points à aborder}
+
+
