@@ -5,10 +5,11 @@
     \begin{enumerate}
 
     % Mise en forme liste:
-    \renewcommand{\labelenumi}
-            {FO n\degres \arabic{enumi}~:}
-    \renewcommand{\labelenumii}
-            {FO n\degres \arabic{enumi}.\arabic{enumii}~:}
+  %  \renewcommand{\labelenumi}
+  %          {FO n\degres \arabic{enumi}~:}
+  %  \renewcommand{\labelenumii}
+  %          %{\labelenumi.\arabic{enumii}~:}
+  %          {FO n\degres \arabic{enumi}.\arabic{enumii}~:}
     
     % Texte:
         \item Monitoring à distance
@@ -33,15 +34,16 @@
             \end{enumerate}
     \end{enumerate}
 
-
 \section{Exigences non fonctionnelles}
-    \begin{itemize}
-        \item[Robustesse:] le système doit toujours revenir à un état
+    \begin{description}
+        \item[Robustesse:]\hfill\\
+            le système doit toujours revenir à un état
             stable en cas de redémarrage intempestif pour une cause
             environnementale comme un EMP ou une alimentation électrique
             défaillante.
     
-        \item[Évolutivité et maintenabilité:] le système doit pouvoir
+        \item[Évolutivité et maintenabilité:]\hfill\\
+            le système doit pouvoir
             s'adapter facilement à de nombreuses autres sans demander de
             modification majeure.
             De plus il doit être aisé de modifier le système pour en
@@ -53,19 +55,21 @@
                 \item matérielle.
             \end{itemize}
 
-        \item[Généricité:] il faut pouvoir décliner le système à moindre
+        \item[Généricité:]\hfill\\
+            il faut pouvoir décliner le système à moindre
             coût pour d'autres applications, donc prévoir en conséquence
             le paramétrage des modules, de l'interface...
 
-        \item[Réutilisation:] réutiliser les composants existants et
+        \item[Réutilisation:]\hfill\\
+            réutiliser les composants existants et
             définir des composants susceptibles d'être réutilisés dans
             d'autres applications.
 
-        \item[Ergonomie:] conception des IHM en fonction des
+        \item[Ergonomie:]\hfill\\
+            conception des IHM en fonction des
             utilisateurs.
 
         \item[Traçabilité:] le système doit conserver pendant 2 ans au
             moins toutes les interventions et toutes les mesures.
-    \end{itemize}
-
+    \end{description}
 
