@@ -1,0 +1,288 @@
+%PDF-1.3
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+4 0 obj
+% Page dictionary
+<< /Contents 13 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 12 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R5': class PDFCatalog 
+5 0 obj
+% Document Root
+<< /Outlines 7 0 R
+ /PageLabels 14 0 R
+ /PageMode /UseNone
+ /Pages 12 0 R
+ /Type /Catalog >>
+endobj
+% 'R6': class PDFInfo 
+6 0 obj
+<< /Author ()
+ /CreationDate (D:20110126162056-01'00')
+ /Keywords ()
+ /Producer (ReportLab http://www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Critique des Livrables) >>
+endobj
+% 'R7': class PDFOutlines 
+7 0 obj
+<< /Count 4
+ /First 8 0 R
+ /Last 11 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+8 0 obj
+<< /Dest [ 4 0 R
+ /XYZ
+ 62.69291
+ 712.2236
+ 0 ]
+ /Next 9 0 R
+ /Parent 7 0 R
+ /Title (G\351n\351ral) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+9 0 obj
+<< /Dest [ 4 0 R
+ /XYZ
+ 62.69291
+ 573.0236
+ 0 ]
+ /Next 10 0 R
+ /Parent 7 0 R
+ /Prev 8 0 R
+ /Title (Livrables GEI) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+10 0 obj
+<< /Dest [ 4 0 R
+ /XYZ
+ 62.69291
+ 325.8236
+ 0 ]
+ /Next 11 0 R
+ /Parent 7 0 R
+ /Prev 9 0 R
+ /Title (Livrables Gestion de Projet) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+11 0 obj
+<< /Dest [ 4 0 R
+ /XYZ
+ 62.69291
+ 222.6236
+ 0 ]
+ /Parent 7 0 R
+ /Prev 10 0 R
+ /Title (Conclusion) >>
+endobj
+% 'R12': class PDFPages 
+12 0 obj
+% page tree
+<< /Count 1
+ /Kids [ 4 0 R ]
+ /Type /Pages >>
+endobj
+% 'R13': class PDFStream 
+13 0 obj
+% page stream
+<< /Length 4762 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 724.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 11.568 Tm /F2 24 Tf 28.8 TL 109.5689 0 Td (Critique des Livrables) Tj T* -109.5689 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+BT 1 0 0 1 0 10.122 Tm 25.2 TL /F2 21 Tf 0 0 0 rg (G\351n\351ral) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 645.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27.384 Tm /F1 12 Tf 12 TL 1.243269 Tw (L'utilisation du formalisme impos\351 par LateX et la mise en place des squelettes par le) Tj T* 0 Tw 5.305615 Tw (Responsable Qualit\351 a permis une faible marche de manoeuvre au niveau du) Tj T* 0 Tw (formalisme pour les diff\351rents r\351dacteurs.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.384 Tm /F1 12 Tf 12 TL (C'est pourquoi le respect des r\350gles impos\351es fut particuli\350rement simple.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 585.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27.384 Tm /F1 12 Tf 12 TL .73536 Tw (De plus les GEI, bien qu'ils n'y \351taient pas forc\351s ont r\351dig\351 leurs drafts en utilisant les) Tj T* 0 Tw 1.669366 Tw (structures mises en place. La r\351alisation des livrables finaux en a ainsi \351t\351 fortement) Tj T* 0 Tw (facilit\351e.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 547.8236 cm
+q
+BT 1 0 0 1 0 10.122 Tm 25.2 TL /F2 21 Tf 0 0 0 rg (Livrables GEI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 481.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 51.384 Tm /F1 12 Tf 12 TL 3.28248 Tw (Les livrables du groupe d'\351tude ont respect\351es les normes d\351finies par la qualit\351.) Tj T* 0 Tw .367069 Tw (Cependant la coh\351rence formelle dans un m\352me document n'est pas toujours pr\351sente.) Tj T* 0 Tw .72748 Tw (Les principales causes de ces incoh\351rences sont l'absence de r\350gles pr\351cises pour les) Tj T* 0 Tw 2.882983 Tw (tableaux, les listes, etc... et le manque de communication entre les GEI lors de la) Tj T* 0 Tw (r\351daction des livrables.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 451.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.384 Tm /F1 12 Tf 12 TL .339797 Tw (Les livrables sont donc formellement corrects vis-\340-vis des exigences formul\351es dans le) Tj T* 0 Tw (document de gestion et de structuration de la documentation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 397.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39.384 Tm /F1 12 Tf 12 TL .201184 Tw (Un point important \340 soulever est la quasi absence de remplissage du fichier de suivi de) Tj T* 0 Tw .978412 Tw (chaque livrable. Seule la cr\351ation et des fois mais rarement la modification par un GEI) Tj T* 0 Tw 4.834697 Tw (sont pr\351sents dans le fichier de suivi. Les validations du chef de projet et du) Tj T* 0 Tw (responsable qualit\351 sont cependant pr\351sentes dans le suivi.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 367.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.384 Tm /F1 12 Tf 12 TL 3.36248 Tw (Finalement, la qualit\351 de la langue des diff\351rents GEI \351tant variable, la correction) Tj T* 0 Tw (grammaticale et orthographique est parfois difficile \340 r\351aliser.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 337.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.384 Tm /F1 12 Tf 12 TL 3.503555 Tw (La relecture par les GEI de leur travail est par ailleurs insuffisante. Force est de) Tj T* 0 Tw (constater ceci en lisant des phrases comme "le syst\350me syst\350me embarqu\351 est ...".) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 300.6236 cm
+q
+BT 1 0 0 1 0 10.122 Tm 25.2 TL /F2 21 Tf 0 0 0 rg (Livrables Gestion de Projet) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 234.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 51.384 Tm /F1 12 Tf 12 TL 4.765269 Tw (Les livrables de gestion de projet g\351n\351r\351s par le chef de projet n'ont pas \351t\351) Tj T* 0 Tw .30748 Tw (particuli\350rement \351t\351 soumis \340 ma v\351rification. Cependant les mesures de qualit\351 ont \351t\351) Tj T* 0 Tw .26184 Tw (mises au point en collaboration avec le chef de projet. Le respect des plans-type fournis) Tj T* 0 Tw .881979 Tw (par moi-m\352me et ma structuration de la documentation ont correctement \351t\351 respect\351s) Tj T* 0 Tw (par le chef de projet.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 197.4236 cm
+q
+BT 1 0 0 1 0 10.122 Tm 25.2 TL /F2 21 Tf 0 0 0 rg (Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 167.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.384 Tm /F1 12 Tf 12 TL 2.74752 Tw (Les livrables sont donc plut\364t respectueux des normes mises en place m\352me si la) Tj T* 0 Tw (qualit\351 de r\351daction n'est pas toujours pr\351sente.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 3.384 Tm 160.2569 0 Td 12 TL /F1 12 Tf 0 0 0 rg (H4413 - RQ - Critique Livrable) Tj T* -160.2569 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.384 Tm /F1 12 Tf 12 TL 237.6089 0 Td (1) Tj T* -237.6089 0 Td ET
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R14': class PDFPageLabels 
+14 0 obj
+% Document Root
+<< /Nums [ 0
+ 15 0 R ] >>
+endobj
+% 'R15': class PDFPageLabel 
+15 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+xref
+0 16
+0000000000 65535 f
+0000000113 00000 n
+0000000221 00000 n
+0000000386 00000 n
+0000000559 00000 n
+0000000838 00000 n
+0000000994 00000 n
+0000001226 00000 n
+0000001349 00000 n
+0000001519 00000 n
+0000001704 00000 n
+0000001904 00000 n
+0000002057 00000 n
+0000002164 00000 n
+0000007031 00000 n
+0000007124 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\245\276\345\026\350v\375\367\263\022\326\266\332\013\215\325) (\245\276\345\026\350v\375\367\263\022\326\266\332\013\215\325)] 
+
+ /Info 6 0 R
+ /Root 5 0 R
+ /Size 16 >>
+startxref
+7171
+%%EOF
