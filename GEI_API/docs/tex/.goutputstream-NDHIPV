@@ -1,0 +1,29 @@
+\section{Spécification des APIs}
+
+Pour une question de simplicité de communication, les fonctions des APIs sont spécifié en langage C++.
+
+\subsection{API Serveurs}
+Les principales fonctions d'interfaçage entre le serveur SSH et les système embarqué sont les suivantes :
+
+\begin{numerize}
+\item \textbf{InfoDataList getData(int sensorId, STATUS error);}
+détails:
+		Demande les données de tous les capteurs de la station concernée.
+entrée : 
+		int sensorId : identifiant du capteur à relever
+sortie :
+		InfoDataList : liste chainé de la structure InfoData
+		STATUS error : retourne 0 si OK, sinon le code correspondant au type d'erreur rencontré
+
+\item \textbf{DevicePosition getPosition(int sensorId, STATUS error);}
+détails:
+		Demande la position exacte de la station concernée.
+entrée : 
+		int sensorId : identifiant du capteur à relever
+sortie :
+		DevicePosition : contient les informations de position du dispositif.
+		STATUS error : retourne 0 si OK, sinon le code correspondant au type d'erreur rencontré
+
+\item \textbf{DevicePower getPosition(int sensorId, STATUS error);}
+détails:
+		Demande l
