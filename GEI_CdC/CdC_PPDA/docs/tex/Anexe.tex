@@ -1,0 +1,83 @@
+%!TEX encoding = UTF-8 Unicode
+\documentclass [a4paper] {report}
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\usepackage{graphicx}
+%\graphicspath{{pics/}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{hyperref}
+\usepackage{eurosym}
+\begin {document}
+
+\section{Esquisse de l'Interface Mobile}
+
+\subsection{Ecran d'accueil}
+Cet écran présent le logo de la Societé COPEVUE et les champs pour l'autentification
+de l'utilisateur.
+
+\begin{figure}[!h] 
+\begin{center}
+\includegraphics[width=4cm]{01.jpg} 
+\end{center} 
+\end{figure} 
+
+\subsection{Ecran de Recherche}
+Le champ texte permet de saisir le nom de l'objet de recherche.
+Pour faire la recherche, l'application compte avec un multichoix qui nous permet de préciser les critères de recherche.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=5cm]{02.jpg}
+\end{center} 
+\end{figure} 
+
+Le tab Bar nous permet de: Faire une recherche, Montrer la carte géographique, Faire une Intervention (demande Consultation), Faire des paramètrage. 
+Si les critères sont mis, on valide avec le bouton "OK" pour commencer la recherche.\newpage
+
+\subsection{Ecran Résultat de Recherche}
+Ces écrans présent les résultats de recherches des stations.
+Le bouton de retour permet de revenir à l'écran précédent.
+Le tableau montre le résultat après avoir choisi les critères de recherche.
+
+\begin{figure}[!h] 
+\begin{center}
+\includegraphics[width=4cm]{03.jpg} 
+\end{center}
+\end{figure} 
+
+On peut faire double click sur la file qui nous intéresse pour avoir les informations générales tels que l'Id et le nom de station, le nombre de capteurs qui possède, le état de la station, date de modification, etc.
+
+\begin{figure}[!htbp]
+\begin{center}
+\includegraphics[width=4cm]{04.jpg}              
+\includegraphics[width=4cm]{05.jpg}              
+\includegraphics[width=4cm]{06.jpg}              
+\end{center}
+\end{figure} 
+Le passage d'une information à l'autre s'effectue par balayage de l'écran de droite à gauche. 
+Le bouton refresh permet de mettre à jour les informations avec les derniers données.
+On peut accéder à la cartographie depuis cet écran, et nous affichera le map centré sur la station.
+
+On peut aussi faire click sur Intervention pour faire un rapport.\newpage
+
+\subsection{Ecran Emission d'un Rapport d'Intervention}
+Cet écran nous permet d'émitir un rapport, on peut mettre le nom du rapport, la nature de l'intervention en indiquant si c'est une réparation, une maintenance, un remplissage, etc. 
+On peut aussi faire des commentaires. Et enfin pour envoyer le rapport on click sur OK. L'application ajoutera automatiquement la date et le lieu du rapport.
+
+\begin{figure}[!h] 
+\begin{center}
+\includegraphics[width=4cm]{07.jpg}
+\end{center}
+\end{figure}
+
+\subsection{Ecran Préférences}
+Cet écran permet d'activer l'autologin. Le PDA gardera les données d'identifient et mot de passe.
+On peut configurer aussi les critères de recherche, etc.
+\begin{figure}[!h] 
+\begin{center}
+\includegraphics[width=4cm]{08.jpg}
+\end{center}
+\end{figure}
+
+
+\end{document}
