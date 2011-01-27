@@ -5,7 +5,7 @@ Le schéma suivant résume l'architecture applicative choisie à concevoir:
 
 \begin{figure}
 \centering
-\includegraphics[width=8cm]{\PIXPATH/concep_generale}
+\includegraphics[width=12cm]{\PIXPATH/concep_generale}
 \end{figure}
 	
 \subsection{Découpage en sous-systèmes}
@@ -33,26 +33,26 @@ de donner une meilleure granularité à la description.
 \subsubsection{Système Embarqué}
 \begin{enumerate}
 
-\item Gestion des capteurs
-Configuration/maintenance
-Suivi des données
+\item \textbf{Gestion des capteurs} \\
+Configuration/maintenance \\
+Suivi des données 
 
-\item Gestion de l'énergie
+\item \textbf{Gestion de l'énergie} \\
 Configuration/maintenance
 
-\item Positionnement
-Configuration/maintenance du module GPS
+\item \textbf{Positionnement} \\
+Configuration/maintenance du module GPS \\
 Suivi des données (la position)
 
-\item Communication avec les serveurs
-Configuration/maintenance
-Suivi des données du système embarqué
-Rapports de fonctionnement
+\item \textbf{Communication avec les serveurs} \\
+Configuration/maintenance \\
+Suivi des données du système embarqué \\
+Rapports de fonctionnement \\
 Alertes
 
-\item Communication Bluetooth
-Configuration/maintenance
-Suivi des données des capteurs
+\item \textbf{Communication Bluetooth} \\
+Configuration/maintenance \\
+Suivi des données des capteurs \\
 Rapports de fonctionnement
 
 \end{enumerate}
@@ -60,30 +60,30 @@ Rapports de fonctionnement
 
 \subsubsection{Serveurs}
 \begin{enumerate}
-\item Serveur de Sauvegarde
+\item \textbf{Serveur de Sauvegarde} \\
 Sauvegarde des enregistrements des capteurs dans la base de données
-
-\item Serveur HTTPS (Web)
-Configuration des stations
+ 
+\item \textbf{Serveur HTTPS (Web)} \\
+Configuration des stations \\
 Suivi données provenant des stations
 
-\item Serveur SSH (Communication avec le système embarqué)
-Acquisition depuis les stations des enregistrements des capteurs
-Configuration des stations
-Maintenance logicielle à distance
+\item \textbf{Serveur SSH (Communication avec le système embarqué)} \\
+Acquisition depuis les stations des enregistrements des capteurs \\
+Configuration des stations \\ 
+Maintenance logicielle à distance \\
 Suivi des données provenant des stations
 \end{enumerate}
 
 
 \subsubsection{Service client}
 \begin{enumerate}
-\item Application PDA/Smartphone
-Configuration/maintenance
-Suivi des données
-Rapports de fonctionnement
+\item \textbf{Application PDA/Smartphone} \\
+Configuration/maintenance \\
+Suivi des données \\
+Rapports de fonctionnement \\
 
-\item Application Web
-Configuration/maintenance
-Suivi des données
-Rapports de fonctionnement
+\item \textbf{Application Web} \\
+Configuration/maintenance \\
+Suivi des données \\
+Rapports de fonctionnement \\
 \end{enumerate}
