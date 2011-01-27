@@ -6,88 +6,108 @@ spécifiées en langage C++.
 \subsection{API Serveurs}
 Les principales fonctions d'interfaçage du serveur SSH sont les suivantes:
 
-\begin{enumerate}
+\begin{itemize}
 \item \textbf{InfoDataList getData(int deviceId, STATUS error);}
-détails:
-		Demande les données de tous les capteurs de la station concernée.
-entrée : 
-		int deviceId : identifiant du dispositif
-sortie :
-		InfoDataList : liste chainé de la structure InfoData
-		STATUS error : retourne 0 si OK, sinon le code correspondant au type d'erreur rencontré
+\begin{tabbing}
+détails: \=\\
+\>Demande les données de tous les capteurs de la station concernée. \\
+entrée :  \\
+\>int deviceId : identifiant du dispositif \\
+sortie : \\
+\>InfoDataList : liste chainé de la structure InfoData \\
+\>STATUS error : retourne 0 si OK, sinon le code correspondant au type d'erreur rencontré \\
+\end{tabbing}
 
 \item \textbf{DevicePosition getPosition(int deviceId, STATUS error);}
-détails:
-		Demande la position exacte de la station concernée.
-entrée : 
-		int deviceId : identifiant du dispositif
-sortie :
-		DevicePosition : contient les informations de position du dispositif.
-		STATUS error : retourne 0 si OK, sinon le code correspondant au type d'erreur rencontré
+\begin{tabbing}
+détails: \=\\
+\>Demande la position exacte de la station concernée. \\
+entrée : \\
+\>int deviceId : identifiant du dispositif \\
+sortie : \\
+\>DevicePosition : contient les informations de position du dispositif. \\
+\>STATUS error : retourne 0 si OK, sinon le code correspondant au type d'erreur rencontré \\
+\end{tabbing}
+
 
 \item \textbf{DevicePower getPower(int deviceId, STATUS error);}
-détails:
-		Demande l’autonomie d'énergie de la station.
-entrée : 
-		int deviceId : identifiant du dispositif
-sortie :
-		DevicePower : contient les informations de l’autonomie énergétique du dispositif.
-		STATUS error : retourne 0 si OK, sinon le code correspondant au type d'erreur rencontré
+\begin{tabbing}
+détails: \=\\
+\>		Demande l’autonomie d'énergie de la station. \\
+entrée : \\
+\>		int deviceId : identifiant du dispositif \\
+sortie : \\
+\>		DevicePower : contient les informations de l’autonomie énergétique du dispositif. \\
+\>		STATUS error : retourne 0 si OK, sinon le code correspondant au type d'erreur rencontré \\
+\end{tabbing}
 
 \item \textbf{STATUS configSensor(int deviceId, int sensorId, int min, int max);}
-détails:
-		Configure le seuil minimum et maximum critique du type de données concernées du capteur.
-entrée :
-		int deviceId : identifiant du dispositif
-		int sensorId : identifiant du capteur à configurer
-		int min : seuil minimum
-		int max : seuil maximum
-sortie :
-		retourne le code d'erreur
+\begin{tabbing}
+détails: \=\\
+\>		Configure le seuil minimum et maximum critique du type de données concernées du capteur. \\
+entrée : \\
+\>		int deviceId : identifiant du dispositif \\
+\>		int sensorId : identifiant du capteur à configurer \\
+\>		int min : seuil minimum \\
+\>		int max : seuil maximum \\
+sortie : \\
+\>		retourne le code d'erreur \\
+\end{tabbing}
 
 \item \textbf{STATUS reboot(int deviceId);}
-détails:
-		Rédemarre le système embarqué donné.
-entrée :
-		int deviceId : identifiant du dispositif
-sortie :
-		retourne le code d'erreur
+\begin{tabbing}
+détails: \=\\
+\>		Rédemarre le système embarqué donné. \\
+entrée : \\
+\>		int deviceId : identifiant du dispositif \\ 
+sortie : \\
+\>		retourne le code d'erreur \\
+\end{tabbing}
 
 \item \textbf{STATUS check(int deviceId);}
-détails:
-		Vérifie le système
-entrée :
-		int deviceId : identifiant du dispositif
-sortie :
-		retourne le code d'erreur
+\begin{tabbing}
+détails: \=\\
+\>		Vérifie le système \\
+entrée : \\
+\>		int deviceId : identifiant du dispositif \\
+sortie : \\
+\>		retourne le code d'erreur \\
+\end{tabbing}
 
 \item \textbf{STATUS showlog(int deviceId, FLAG options, char * fileName);}
-détails:
-		Enregistre le log dans le fichier indiqué (STDOUT pour la sortie standard)
-entrée :
-		int deviceId : identifiant du dispositif
-		FLAGs : conditions de sélection et filtrage des alertes (InfoData) à afficher (ordre chronologique, inverse, type d'alerte, période...)
-sortie :
-		retourne le code d'erreur
-		char * fileName : le chemin du fichier log à enregistrer
+\begin{tabbing}
+détails: \=\\
+\>		Enregistre le log dans le fichier indiqué (STDOUT pour la sortie standard) \\
+entrée : \\
+\>		int deviceId : identifiant du dispositif \\
+\>		FLAGs : conditions de sélection et filtrage des alertes (InfoData) à afficher (ordre chronologique, inverse, type d'alerte, période...) \\
+sortie : \\
+\>		retourne le code d'erreur \\
+\>		char * fileName : le chemin du fichier log à enregistrer \\
+\end{tabbing}
 
 \item \textbf{STATUS backup(char * path);}
-détails:
-		Enregistre un backUp de toutes les données dans le répertoire indiqué
-entrée :
-		char * path : répertoire dans lequelle sera fait le backup
-sortie :
-		retourne le code d'erreur
+\begin{tabbing}
+détails: \=\\
+\>		Enregistre un backUp de toutes les données dans le répertoire indiqué\\
+entrée : \\
+\>		char * path : répertoire dans lequelle sera fait le backup \\
+sortie : \\
+\>		retourne le code d'erreur \\
+\end{tabbing}
 
 \item \textbf{STATUS restore(char * path);}
-détails:
-		Restaure le système en utilisant le backup enregistré sur le répertoire indiqué
-entrée :
-		char * path : répertoire du backup
-sortie :
-		retourne le code d'erreur
+\begin{tabbing}
+détails: \=\\
+\>		Restaure le système en utilisant le backup enregistré sur le répertoire indiqué \\
+entrée : \\
+\>		char * path : répertoire du backup \\
+sortie : \\
+\>		retourne le code d'erreur \\
+\end{tabbing}
 
-\end{enumerate}
+\end{itemize}
+
 
 
 \subsection{API - Système embarqué}
@@ -95,66 +115,70 @@ sortie :
 Le système embarqué possède certaines fonctions similaires à l'API du serveur 
 SSH, pour cela on utilisera les memes noms.
 
-\begin{enumerate}
+\begin{itemize}
 
 \item \textbf{SensorData getData(int sensorId, STATUS error);}
-détails:
-		Demande les données d'un capteur
-entrée : 
-		int sensorId : identifiant du capteur
-sortie :
-		SensorData : contient les informations transmises par le capteur 
-		STATUS error : retourne le code d'erreur
+\begin{tabbing}
+détails: \=\\
+\>		Demande les données d'un capteur \\
+entrée : \\ 
+\>		int sensorId : identifiant du capteur \\
+sortie : \\
+\>		SensorData : contient les informations transmises par le capteur \\
+\>		STATUS error : retourne le code d'erreur \\
+\end{tabbing}
 
 \item \textbf{DevicePosition getPosition(STATUS error);}
-détails:
-		Demande la position exacte de la station concernée au module GPS.
-sortie :
-		DevicePosition : contient les informations de position du dispositif.
-		STATUS error : retourne le code d'erreur
+\begin{tabbing}
+détails: \=\\
+\>		Demande la position exacte de la station concernée au module GPS. \\
+sortie : \\
+\>		DevicePosition : contient les informations de position du dispositif. \\
+\>		STATUS error : retourne le code d'erreur \\
+\end{tabbing}
 
 
 \item \textbf{STATUS configSensor(int sensorId, int min, int max);}
-détails:
-		Configure le seuil minimum et maximum critique du type de données concernées du capteur.
-entrée :
-		int sensorId : identifiant du capteur à configurer
-		int min : seuil minimum
-		int max : seuil maximum
-sortie :
-		retourne le code d'erreur
+\begin{tabbing}
+détails: \=\\
+\>		Configure le seuil minimum et maximum critique du type de données concernées du capteur. \\
+entrée : \\
+\>		int sensorId : identifiant du capteur à configurer \\
+\>		int min : seuil minimum \\
+\>		int max : seuil maximum \\
+sortie : \\
+\>		retourne le code d'erreur \\
+\end{tabbing}
 
 \item \textbf{STATUS reboot(int sensorId);}
-détails:
-		Rédemarre le capteur
-entrée :
-		int sensorId : identifiant du dispositif
-sortie :
-		retourne le code d'erreur
+\begin{tabbing}
+détails: \=\\
+\>		Rédemarre le capteur \\
+entrée : \\
+\>		int sensorId : identifiant du dispositif \\
+sortie : \\
+\>		retourne le code d'erreur \\
+\end{tabbing}
 
 \item \textbf{InfoData sendInfoData(int sensorId, STATUS error);}
-détails:
-		Envoie l'information sur un capteur
-entrée : 
-		int sensorId : identifiant du capteur
-sortie :
-		InfoData - structure avec les informations relevé du capteur
-		STATUS error : retourne le code d'erreur
+\begin{tabbing}
+détails: \=\\
+\>		Envoie l'information sur un capteur \\
+entrée : \\
+\>		int sensorId : identifiant du capteur \\
+sortie : \\
+\>		InfoData - structure avec les informations relevé du capteur \\
+\>		STATUS error : retourne le code d'erreur \\
+\end{tabbing}
 
-\end{enumerate}
+\end{itemize}
 
 \subsection{API - PDA/Smartphone}
 
-Le logiciel du PDA/Smartphone doit être capable de consulter des informations 
-et configurer le système. Il utilise quelques fonctions identiques à l'API Serveur. 
-Ces fonctions sont les suivantes:
+Aven un PDA/Smartphone, l'utilisateur doit être capable de consulter des informations 
+et configurer le système. Pour cela, nous avons implementer un serveur web sur le système embarqué. \\
+L'advantage de cette aproche est que nous n'avons pas besoin de créer/configurer un logiciel, il suffit que le PDA/Smartphone se connecte en bluetooth sur notre serveur web local avec n'importe quel browser.
 
 
-\begin{enumerate}
-\item \textbf{InfoDataList getData(int deviceId, STATUS error);}
-\item \textbf{DevicePosition getPosition(int deviceId, STATUS error);}
-\item \textbf{DevicePower getPower(int deviceId, STATUS error);}
-\item \textbf{STATUS configSensor(int deviceId, int sensorId, int min, int max);}
-\item \textbf{STATUS reboot(int deviceId);}
-\item \textbf{STATUS check(int deviceId);}
-\end{enumerate}
+\vfill
+\pagebreak
