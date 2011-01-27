@@ -1,8 +1,8 @@
 # Insert infos here:
-TITLE="Ceci est le titre!"
-OBJECT="Oh! Je suis un objet!"
+TITLE="Cahier des charges - PDA"
+OBJECT="Cahier des charges relatif au PDA"
 AUTHOR="H4413"
-CURRVER="0"
+CURRVER="1"
 FILE="cdc_pda"
 
 LANG="french"
