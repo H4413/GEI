@@ -1,13 +1,12 @@
 # Insert infos here:
 TITLE="Dossier de Gestion et de Structuration de la Documentation"
-OBJECT="Structure de l'ensemble de la documentation pour le projet GEI."
+OBJECT="Structure de l'ensemble de la documentation du projet GEI"
 AUTHOR="H4413"
-
-FILE="gei_gestion_doc"
+CURRVER="1.0"
+FILE="rq_dossier_gest_doc"
 
 LANG="french"
 # For hyphenation and other language dependant stuff
-# Languages:english, usenglishmax, dumylang, nohyphenation, german-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, monogreek, greek, hungarian, icelandic, indonesian, interlingua, irish, italian, kurmanji, latin, latvian, lithuanian, mongolian, mongolian2a, bokmal, nynorsk, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish, ukenglish, ukrainian, uppersorbian, welsh
 
 FONT="utopia"
 # Fonts (among others): kpfonts, utopia, charter, yfonts, venturis2
