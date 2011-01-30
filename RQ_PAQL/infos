@@ -2,8 +2,8 @@
 TITLE="Ebauche PAQL"
 OBJECT="Sous Projet Système Embarqué"
 AUTHOR="H4413"
-CURRVER="0"
-FILE="document"
+CURRVER="1"
+FILE="RQ_Draft_PAQL_SE"
 
 LANG="french"
 # For hyphenation and other language dependant stuff

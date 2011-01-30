@@ -125,6 +125,7 @@ echo "
 \newcommand\PIXPATH{$PIXPATH}
 \newcommand\SRCPATH{$SRCPATH}
 \newcommand\Object{$OBJECT}
+\newcommand\Version{$CURRVER}
 \renewcommand{\labelitemi}{$\diamond$}
 \renewcommand{\labelenumi}{(\alph{enumi})}
 " >> ${FILE}
